@@ -1,0 +1,13 @@
+image_path,true_person_id,true_status,condition
+data/faces/person-001/test_01.png,person-001,known,normal
+data/faces/person-001/test_02.png,person-001,known,lighting
+data/faces/person-001/test_03.png,person-001,known,angle
+data/faces/person-002/test_01.png,person-002,known,normal
+data/faces/person-002/test_02.png,person-002,known,lighting
+data/faces/person-002/test_03.png,person-002,known,angle
+data/faces/person-003/test_01.png,person-003,known,normal
+data/faces/person-003/test_02.png,person-003,known,lighting
+data/faces/person-003/test_03.png,person-003,known,angle
+data/faces/unknown/unknown_01.png,,unknown,normal
+data/faces/unknown/unknown_02.png,,unknown,lighting
+data/faces/unknown/unknown_03.png,,unknown,angle
