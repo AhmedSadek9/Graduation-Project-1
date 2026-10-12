@@ -1,0 +1,13 @@
+﻿image_path,true_person_id,true_status,condition,predicted_person_id,predicted_status,confidence,latency_ms,correct,error
+data/faces/person-001/test_01.png,person-001,known,normal,person-001,known,0.6719443798065186,1026.55,True,
+data/faces/person-001/test_02.png,person-001,known,lighting,person-001,known,0.8423789143562317,1108.13,True,
+data/faces/person-001/test_03.png,person-001,known,angle,,low_confidence,0.5314205884933472,928.54,False,
+data/faces/person-002/test_01.png,person-002,known,normal,person-002,known,0.7133656740188599,1438.35,True,
+data/faces/person-002/test_02.png,person-002,known,lighting,person-002,known,0.7385627031326294,1076.69,True,
+data/faces/person-002/test_03.png,person-002,known,angle,person-002,known,0.7579789161682129,1172.21,True,
+data/faces/person-003/test_01.png,person-003,known,normal,person-003,known,0.7211694121360779,1117.81,True,
+data/faces/person-003/test_02.png,person-003,known,lighting,,low_confidence,0.6217296719551086,1200.13,False,
+data/faces/person-003/test_03.png,person-003,known,angle,person-003,known,0.7705073356628418,1235.51,True,
+data/faces/unknown/unknown_01.png,,unknown,normal,,unknown,0.035821180790662766,1474.31,True,
+data/faces/unknown/unknown_02.png,,unknown,lighting,,unknown,0.04672432690858841,728.99,True,
+data/faces/unknown/unknown_03.png,,unknown,angle,,unknown,0.0,1274.53,True,
