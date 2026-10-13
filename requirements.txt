@@ -1,0 +1,10 @@
+# Core/runtime dependencies used by the existing WANAS modules
+numpy
+scikit-learn
+sentence-transformers
+# Face recognition
+insightface
+onnxruntime
+opencv-python
+# Speech-to-text
+faster-whisper

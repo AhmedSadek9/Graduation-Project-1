@@ -1,0 +1,86 @@
+text,intent
+did i take my medicine today,CHECK_MEDICATION
+did i miss my medicine,CHECK_MEDICATION
+should i take my pills,CHECK_MEDICATION
+did i take my pills this morning,CHECK_MEDICATION
+is my pill due right now,CHECK_MEDICATION
+when should i take my blood pressure pills,CHECK_MEDICATION
+have i had my insulin shot,CHECK_MEDICATION
+have i taken my pills yet,CHECK_MEDICATION
+is it time for pills,CHECK_MEDICATION
+when is my next dose,CHECK_MEDICATION
+time for my daily medicine,CHECK_MEDICATION
+is it time for my medication,CHECK_MEDICATION
+did i take my evening medication,CHECK_MEDICATION
+did i drink my syrup,CHECK_MEDICATION
+remind me to take my medicine,CHECK_MEDICATION
+medication check please,CHECK_MEDICATION
+check my medication schedule,CHECK_MEDICATION
+what pills do i need to take now,CHECK_MEDICATION
+did i swallow my tablets,CHECK_MEDICATION
+did i forget my pills,CHECK_MEDICATION
+what are the items on my reminder list,GET_MEMORY
+please tell me everything on my list of reminders,GET_MEMORY
+read what i added to the reminder list,GET_MEMORY
+i need to set a reminder to go to the post office,GET_MEMORY
+please reminder for car meet,GET_MEMORY
+remember to remind me of this later,GET_MEMORY
+remind me to bring a jacket in tomorrow,GET_MEMORY
+i wanted to remember what again,GET_MEMORY
+create a reminder for me to exercise this week,GET_MEMORY
+set up a reminder to give the cat her flea medicine,GET_MEMORY
+"new reminder, please",GET_MEMORY
+make a reminder to give the cat her flea medicine,GET_MEMORY
+can you please repeat my list back to me,GET_MEMORY
+set a reminder for my doctors appointment,GET_MEMORY
+what did i list in my reminders,GET_MEMORY
+could you make me a reminder to do the floors,GET_MEMORY
+did i include cleaning the hamster cage on my list of reminders,GET_MEMORY
+tell me my reminders,GET_MEMORY
+please give me a reminder,GET_MEMORY
+remind me to call bob,GET_MEMORY
+will you repeat my reminder list,GET_MEMORY
+is there a reminder for my aa meeting on my list,GET_MEMORY
+set a reminder for me to do this in a bit,GET_MEMORY
+set a new reminder for tomorrow at 4am,GET_MEMORY
+please read all the items on my reminder list,GET_MEMORY
+how about a reminder,GET_MEMORY
+please remind me to take out the trash,GET_MEMORY
+"can you read my reminder list, please",GET_MEMORY
+remind me,GET_MEMORY
+i want to hear everything on my reminder list,GET_MEMORY
+please remind me of something,GET_MEMORY
+dont let me forget to do that thing later,GET_MEMORY
+can you read my list back to me,GET_MEMORY
+make a reminder to change the cat litter,GET_MEMORY
+can you tell me what things i was trying to remember,GET_MEMORY
+help me please,HELP
+i need urgent help,HELP
+can you help me,HELP
+please assist me right now,HELP
+emergency i need someone,HELP
+i fell down help me,HELP
+i am lost please help,HELP
+who is talking to me,IDENTIFY_PERSON
+do you recognize this face,IDENTIFY_PERSON
+who is this standing in front of me,IDENTIFY_PERSON
+who am i looking at right now,IDENTIFY_PERSON
+tell me the name of this person,IDENTIFY_PERSON
+who is this visitor,IDENTIFY_PERSON
+who is this person,IDENTIFY_PERSON
+identify this person for me,IDENTIFY_PERSON
+do i know her,IDENTIFY_PERSON
+who is that man,IDENTIFY_PERSON
+tell me who is sitting next to me,IDENTIFY_PERSON
+who is standing near me,IDENTIFY_PERSON
+who is she,IDENTIFY_PERSON
+do i know him,IDENTIFY_PERSON
+what is this person's name,IDENTIFY_PERSON
+who is by the door,IDENTIFY_PERSON
+can you recognize him,IDENTIFY_PERSON
+who came to see me,IDENTIFY_PERSON
+can you tell me who is in front of me,IDENTIFY_PERSON
+who just walked into the room,IDENTIFY_PERSON
+is this my son or daughter,IDENTIFY_PERSON
+do you know who this is,IDENTIFY_PERSON
+who are you,IDENTIFY_PERSON
