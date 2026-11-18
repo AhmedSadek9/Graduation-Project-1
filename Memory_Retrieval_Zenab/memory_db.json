@@ -1,0 +1,14 @@
+[
+  {
+    "person_id": "P001",
+    "fact": "This is Ahmed, your elder son who lives in Cairo.",
+    "source": "Caregiver (Fatma)",
+    "update_date": "2026-10-25"
+  },
+  {
+    "person_id": "P002",
+    "fact": "This is Mona, your sister who visits every Friday.",
+    "source": "Caregiver (Fatma)",
+    "update_date": "2026-10-26"
+  }
+]

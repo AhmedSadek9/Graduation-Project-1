@@ -1,0 +1,425 @@
+{
+    "WANAS-001": [
+        {
+            "id": "WANAS-001-ALERT-021",
+            "patient_id": "WANAS-001",
+            "patient_name": "Ahmed Hassan",
+            "type": "Medication Reminder",
+            "message": "Ahmed Hassan: Med t is scheduled for 8:00 and is still marked as pending.",
+            "timestamp": "2026-10-31 01:14:06 AM",
+            "priority": "Medium",
+            "status": "Acknowledged",
+            "acknowledged_by": "Caregiver",
+            "acknowledged_at": "2026-10-31 01:14:09 AM"
+        },
+        {
+            "id": "WANAS-001-ALERT-020",
+            "patient_id": "WANAS-001",
+            "patient_name": "Ahmed Hassan",
+            "type": "Safe Zone Violation",
+            "message": "The patient is 88956.0 meters from home, which exceeds the safe-zone radius of 300 meters.",
+            "timestamp": "2026-10-31 01:13:04 AM",
+            "priority": "High",
+            "status": "Acknowledged",
+            "acknowledged_by": "Caregiver",
+            "acknowledged_at": "2026-10-31 01:13:18 AM"
+        },
+        {
+            "id": "WANAS-001-ALERT-019",
+            "patient_id": "WANAS-001",
+            "patient_name": "Ahmed Hassan",
+            "type": "GPS Connection Restored",
+            "message": "The patient's GPS connection has been restored. Location monitoring can continue.",
+            "timestamp": "2026-10-31 01:12:49 AM",
+            "priority": "Low",
+            "status": "Acknowledged",
+            "acknowledged_by": "Caregiver",
+            "acknowledged_at": "2026-10-31 01:12:55 AM"
+        },
+        {
+            "id": "WANAS-001-ALERT-018",
+            "patient_id": "WANAS-001",
+            "patient_name": "Ahmed Hassan",
+            "type": "GPS Connection Lost",
+            "message": "The patient's GPS connection has been lost. The caregiver cannot receive updated location information.",
+            "timestamp": "2026-10-31 01:12:29 AM",
+            "priority": "High",
+            "status": "Acknowledged",
+            "acknowledged_by": "Caregiver",
+            "acknowledged_at": "2026-10-31 01:12:37 AM"
+        },
+        {
+            "id": "WANAS-001-ALERT-017",
+            "patient_id": "WANAS-001",
+            "patient_name": "Ahmed Hassan",
+            "type": "Medication Reminder",
+            "message": "Ahmed Hassan: Med c is scheduled for 10:00am and is still marked as pending.",
+            "timestamp": "2026-10-31 01:07:53 AM",
+            "priority": "Medium",
+            "status": "Unacknowledged"
+        },
+        {
+            "id": "WANAS-001-ALERT-016",
+            "patient_id": "WANAS-001",
+            "patient_name": "Ahmed Hassan",
+            "type": "Medication Reminder",
+            "message": "Ahmed Hassan: vit a is scheduled for 8:30pm and is still marked as pending.",
+            "timestamp": "2026-10-31 01:07:53 AM",
+            "priority": "Medium",
+            "status": "Unacknowledged"
+        },
+        {
+            "id": "WANAS-001-ALERT-015",
+            "patient_id": "WANAS-001",
+            "patient_name": "Ahmed Hassan",
+            "type": "Medication Reminder",
+            "message": "Ahmed Hassan: Insulin is scheduled for  and is still marked as pending.",
+            "timestamp": "2026-10-31 01:07:53 AM",
+            "priority": "Medium",
+            "status": "Unacknowledged"
+        },
+        {
+            "id": "WANAS-001-ALERT-014",
+            "patient_id": "WANAS-001",
+            "patient_name": "Ahmed Hassan",
+            "type": "Medication Reminder",
+            "message": "Ahmed Hassan: Medication B is scheduled for 08:00 PM and is still marked as pending.",
+            "timestamp": "2026-10-31 12:18:59 AM",
+            "priority": "Medium",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "WANAS-001-ALERT-013",
+            "patient_id": "WANAS-001",
+            "patient_name": "Ahmed Hassan",
+            "type": "Safe Zone Violation",
+            "message": "The patient is 88956.0 meters from home, which exceeds the safe-zone radius of 300 meters.",
+            "timestamp": "2026-10-31 12:18:52 AM",
+            "priority": "High",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "ALERT-012",
+            "type": "GPS Connection Lost",
+            "message": "The patient's GPS connection has been lost. The caregiver cannot receive updated location information.",
+            "timestamp": "2026-10-30 09:57:26 PM",
+            "priority": "High",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "ALERT-011",
+            "type": "GPS Connection Lost",
+            "message": "The patient's GPS connection has been lost. The caregiver cannot receive updated location information.",
+            "timestamp": "2026-10-30 09:52:23 PM",
+            "priority": "High",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "ALERT-010",
+            "type": "GPS Connection Restored",
+            "message": "The patient's GPS connection has been restored. Location monitoring can continue.",
+            "timestamp": "2026-10-30 09:39:19 PM",
+            "priority": "Low",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "ALERT-009",
+            "type": "GPS Connection Lost",
+            "message": "The patient's GPS connection has been lost. The caregiver cannot receive updated location information.",
+            "timestamp": "2026-10-30 09:39:14 PM",
+            "priority": "High",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "ALERT-008",
+            "type": "GPS Connection Restored",
+            "message": "The patient's GPS connection has been restored. Location monitoring can continue.",
+            "timestamp": "2026-10-30 09:37:35 PM",
+            "priority": "Low",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "ALERT-007",
+            "type": "GPS Connection Lost",
+            "message": "The patient's GPS connection has been lost. The caregiver cannot receive updated location information.",
+            "timestamp": "2026-10-30 09:36:55 PM",
+            "priority": "High",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "ALERT-006",
+            "type": "Safe Zone Violation",
+            "message": "The patient is 1113.9 meters from home, which exceeds the safe-zone radius of 300 meters.",
+            "timestamp": "2026-10-30 09:34:11 PM",
+            "priority": "High",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "ALERT-005",
+            "type": "Safe Zone Violation",
+            "message": "The patient is 1113.9 meters from home, which exceeds the safe-zone radius of 300 meters.",
+            "timestamp": "2026-10-30 09:33:42 PM",
+            "priority": "High",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "ALERT-004",
+            "type": "Safe Zone Violation",
+            "message": "The patient is 1113.9 meters from home, which exceeds the safe-zone radius of 300 meters.",
+            "timestamp": "2026-10-30 09:33:39 PM",
+            "priority": "High",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "ALERT-003",
+            "type": "Medication Reminder",
+            "message": "Medication B is scheduled for 08:00 PM and is still marked as pending.",
+            "timestamp": "2026-10-30 09:31:48 PM",
+            "priority": "Medium",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "ALERT-002",
+            "type": "Safe Zone Violation",
+            "message": "The patient is 1245383.2 meters from home, which exceeds the safe-zone radius of 300 meters.",
+            "timestamp": "2026-10-30 09:29:29 PM",
+            "priority": "High",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "ALERT-001",
+            "type": "Safe Zone Violation",
+            "message": "The patient is 2090464.6 meters from home, which exceeds the safe-zone radius of 300 meters.",
+            "timestamp": "2026-10-30 09:27:20 PM",
+            "priority": "High",
+            "status": "Acknowledged"
+        }
+    ],
+    "WANAS-002": [
+        {
+            "id": "WANAS-002-ALERT-003",
+            "patient_id": "WANAS-002",
+            "patient_name": "Mariam Ali",
+            "type": "GPS Connection Restored",
+            "message": "The patient's GPS connection has been restored. Location monitoring can continue.",
+            "timestamp": "2026-10-31 12:17:49 AM",
+            "priority": "Low",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "WANAS-002-ALERT-002",
+            "patient_id": "WANAS-002",
+            "patient_name": "Mariam Ali",
+            "type": "Medication Reminder",
+            "message": "Mariam Ali: Medication C is scheduled for 10:00 AM and is still marked as pending.",
+            "timestamp": "2026-10-31 12:14:37 AM",
+            "priority": "Medium",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "WANAS-002-ALERT-001",
+            "patient_id": "WANAS-002",
+            "patient_name": "Mariam Ali",
+            "type": "GPS Connection Lost",
+            "message": "The patient's GPS connection has been lost. The caregiver cannot receive updated location information.",
+            "timestamp": "2026-10-31 12:14:36 AM",
+            "priority": "High",
+            "status": "Acknowledged"
+        }
+    ],
+    "WANAS-003": [
+        {
+            "id": "WANAS-003-ALERT-001",
+            "patient_id": "WANAS-003",
+            "patient_name": "Omar Ibrahim",
+            "type": "Medication Reminder",
+            "message": "Omar Ibrahim: Medication E is scheduled for 06:00 PM and is still marked as pending.",
+            "timestamp": "2026-10-31 12:15:28 AM",
+            "priority": "Medium",
+            "status": "Unacknowledged"
+        }
+    ],
+    "WANAS-004": [
+        {
+            "id": "WANAS-004-ALERT-003",
+            "patient_id": "WANAS-004",
+            "patient_name": "Salma Mahmoud",
+            "type": "Medication Reminder",
+            "message": "Salma Mahmoud: Med a is scheduled for 7:00pm and is still marked as pending.",
+            "timestamp": "2026-10-31 01:10:03 AM",
+            "priority": "Medium",
+            "status": "Unacknowledged"
+        },
+        {
+            "id": "WANAS-004-ALERT-002",
+            "patient_id": "WANAS-004",
+            "patient_name": "Salma Mahmoud",
+            "type": "Medication Reminder",
+            "message": "Salma Mahmoud: Medication F is scheduled for 09:00 AM and is still marked as pending.",
+            "timestamp": "2026-10-31 01:09:51 AM",
+            "priority": "Medium",
+            "status": "Unacknowledged"
+        },
+        {
+            "id": "WANAS-004-ALERT-001",
+            "patient_id": "WANAS-004",
+            "patient_name": "Salma Mahmoud",
+            "type": "GPS Connection Restored",
+            "message": "The patient's GPS connection has been restored. Location monitoring can continue.",
+            "timestamp": "2026-10-31 12:18:21 AM",
+            "priority": "Low",
+            "status": "Unacknowledged"
+        }
+    ],
+    "WANAS-005": [
+        {
+            "id": "WANAS-005-ALERT-002",
+            "patient_id": "WANAS-005",
+            "patient_name": "Hassan Adel",
+            "type": "Medication Update",
+            "message": "Hassan Adel - Medication H was marked as Taken by Caregiver.",
+            "timestamp": "2026-10-31 12:44:40 AM",
+            "priority": "Low",
+            "status": "Acknowledged",
+            "acknowledged_by": "Caregiver",
+            "acknowledged_at": "2026-10-31 12:59:27 AM"
+        },
+        {
+            "id": "WANAS-005-ALERT-001",
+            "patient_id": "WANAS-005",
+            "patient_name": "Hassan Adel",
+            "type": "Safe Zone Violation",
+            "message": "The patient is 88377.7 meters from home, which exceeds the safe-zone radius of 200 meters.",
+            "timestamp": "2026-10-31 12:15:56 AM",
+            "priority": "High",
+            "status": "Acknowledged",
+            "acknowledged_by": "Caregiver",
+            "acknowledged_at": "2026-10-31 12:59:26 AM"
+        }
+    ],
+    "WANAS-006": [
+        {
+            "id": "WANAS-006-ALERT-001",
+            "patient_id": "WANAS-006",
+            "patient_name": "Nadia Samir",
+            "type": "Medication Reminder",
+            "message": "Nadia Samir: Medication I is scheduled for 11:00 AM and is still marked as pending.",
+            "timestamp": "2026-10-31 12:16:10 AM",
+            "priority": "Medium",
+            "status": "Acknowledged"
+        }
+    ],
+    "WANAS-011": [
+        {
+            "id": "WANAS-011-ALERT-004",
+            "patient_id": "WANAS-011",
+            "patient_name": "Mark",
+            "type": "Safe Zone Violation",
+            "message": "The patient is 111194.9 meters from home, which exceeds the safe-zone radius of 300 meters.",
+            "timestamp": "2026-10-31 12:32:46 AM",
+            "priority": "High",
+            "status": "Unacknowledged"
+        },
+        {
+            "id": "WANAS-011-ALERT-003",
+            "patient_id": "WANAS-011",
+            "patient_name": "Mark",
+            "type": "GPS Connection Restored",
+            "message": "The patient's GPS connection has been restored. Location monitoring can continue.",
+            "timestamp": "2026-10-31 12:32:16 AM",
+            "priority": "Low",
+            "status": "Acknowledged"
+        },
+        {
+            "id": "WANAS-011-ALERT-002",
+            "patient_id": "WANAS-011",
+            "patient_name": "Mark",
+            "type": "Medication Reminder",
+            "message": "Mark: vit d is scheduled for 09:00 AM and is still marked as pending.",
+            "timestamp": "2026-10-31 12:31:56 AM",
+            "priority": "Medium",
+            "status": "Unacknowledged"
+        },
+        {
+            "id": "WANAS-011-ALERT-001",
+            "patient_id": "WANAS-011",
+            "patient_name": "Mark",
+            "type": "GPS Connection Lost",
+            "message": "The patient's GPS connection has been lost. The caregiver cannot receive updated location information.",
+            "timestamp": "2026-10-31 12:31:55 AM",
+            "priority": "High",
+            "status": "Acknowledged"
+        }
+    ],
+    "WANAS-008": [
+        {
+            "id": "WANAS-008-ALERT-001",
+            "patient_id": "WANAS-008",
+            "patient_name": "Laila Mostafa",
+            "type": "Medication Reminder",
+            "message": "Laila Mostafa: Medication L is scheduled for 09:00 AM and is still marked as pending.",
+            "timestamp": "2026-10-31 12:56:46 AM",
+            "priority": "Medium",
+            "status": "Acknowledged",
+            "acknowledged_by": "Caregiver",
+            "acknowledged_at": "2026-10-31 12:56:53 AM"
+        }
+    ],
+    "WANAS-012": [],
+    "WANAS-013": [
+        {
+            "id": "WANAS-013-ALERT-005",
+            "patient_id": "WANAS-013",
+            "patient_name": "Asmaa",
+            "type": "Medication Reminder",
+            "message": "Asmaa: vit d is scheduled for 10:00am and is still marked as pending.",
+            "timestamp": "2026-10-31 01:19:59 AM",
+            "priority": "Medium",
+            "status": "Acknowledged",
+            "acknowledged_by": "Caregiver",
+            "acknowledged_at": "2026-10-31 01:20:04 AM"
+        },
+        {
+            "id": "WANAS-013-ALERT-004",
+            "patient_id": "WANAS-013",
+            "patient_name": "Asmaa",
+            "type": "Safe Zone Violation",
+            "message": "The patient is 86732.0 meters from home, which exceeds the safe-zone radius of 300 meters.",
+            "timestamp": "2026-10-31 01:18:49 AM",
+            "priority": "High",
+            "status": "Unacknowledged"
+        },
+        {
+            "id": "WANAS-013-ALERT-003",
+            "patient_id": "WANAS-013",
+            "patient_name": "Asmaa",
+            "type": "GPS Connection Restored",
+            "message": "The patient's GPS connection has been restored. Location monitoring can continue.",
+            "timestamp": "2026-10-31 01:18:28 AM",
+            "priority": "Low",
+            "status": "Unacknowledged"
+        },
+        {
+            "id": "WANAS-013-ALERT-002",
+            "patient_id": "WANAS-013",
+            "patient_name": "Asmaa",
+            "type": "Medication Reminder",
+            "message": "Asmaa: Med a is scheduled for 09:00 AM and is still marked as pending.",
+            "timestamp": "2026-10-31 01:18:09 AM",
+            "priority": "Medium",
+            "status": "Unacknowledged"
+        },
+        {
+            "id": "WANAS-013-ALERT-001",
+            "patient_id": "WANAS-013",
+            "patient_name": "Asmaa",
+            "type": "GPS Connection Lost",
+            "message": "The patient's GPS connection has been lost. The caregiver cannot receive updated location information.",
+            "timestamp": "2026-10-31 01:18:06 AM",
+            "priority": "High",
+            "status": "Acknowledged",
+            "acknowledged_by": "Caregiver",
+            "acknowledged_at": "2026-10-31 01:18:24 AM"
+        }
+    ]
+}
