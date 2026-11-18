@@ -1,0 +1,2 @@
+# No third-party packages are required for the Personal Memory Retrieval module.
+# The implementation and unit tests use only the Python standard library.
