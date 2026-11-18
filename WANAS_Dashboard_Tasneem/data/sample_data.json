@@ -1,0 +1,399 @@
+{
+    "patients": [
+        {
+            "id": "WANAS-001",
+            "name": "Ahmed Hassan",
+            "age": 72,
+            "gps": {
+                "latitude": 31.2001,
+                "longitude": 29.9187,
+                "accuracy_m": 10,
+                "status": "Connected"
+            },
+            "safe_zone": {
+                "name": "Home",
+                "latitude": 31.2,
+                "longitude": 29.918,
+                "radius_m": 300
+            },
+            "medications": [
+                {
+                    "name": "Medication A",
+                    "time": "09:00 AM",
+                    "status": "Taken (Reported)",
+                    "active": true
+                },
+                {
+                    "name": "Medication B",
+                    "time": "08:00 PM",
+                    "status": "Taken (Reported)",
+                    "reported_by": "Caregiver",
+                    "updated_at": "2026-10-31 12:37:19 AM",
+                    "active": true
+                },
+                {
+                    "name": "Insulin",
+                    "time": "",
+                    "status": "Pending",
+                    "active": true
+                },
+                {
+                    "name": "vit a",
+                    "time": "8:30pm",
+                    "status": "Pending",
+                    "active": true
+                },
+                {
+                    "name": "Med c",
+                    "time": "10:00am",
+                    "status": "Pending",
+                    "active": true
+                },
+                {
+                    "name": "Med t",
+                    "time": "8:00",
+                    "status": "Taken (Reported)",
+                    "reported_by": "Caregiver",
+                    "updated_at": "2026-10-31 01:14:22 AM",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "id": "WANAS-002",
+            "name": "Mariam Ali",
+            "age": 68,
+            "gps": {
+                "latitude": 31.215,
+                "longitude": 29.955,
+                "accuracy_m": 8,
+                "status": "Connected"
+            },
+            "safe_zone": {
+                "name": "Home",
+                "latitude": 31.2148,
+                "longitude": 29.9548,
+                "radius_m": 250
+            },
+            "medications": [
+                {
+                    "name": "Medication C",
+                    "time": "10:00 AM",
+                    "status": "Taken (Reported)",
+                    "reported_by": "Caregiver",
+                    "updated_at": "2026-10-31 12:39:08 AM"
+                }
+            ]
+        },
+        {
+            "id": "WANAS-003",
+            "name": "Omar Ibrahim",
+            "age": 75,
+            "gps": {
+                "latitude": 31.19,
+                "longitude": 29.92,
+                "accuracy_m": 12,
+                "status": "Connected"
+            },
+            "safe_zone": {
+                "name": "Home",
+                "latitude": 31.1905,
+                "longitude": 29.9205,
+                "radius_m": 300
+            },
+            "medications": [
+                {
+                    "name": "Medication D",
+                    "time": "08:00 AM",
+                    "status": "Taken (Reported)"
+                },
+                {
+                    "name": "Medication E",
+                    "time": "06:00 PM",
+                    "status": "Missed",
+                    "reported_by": "Caregiver",
+                    "updated_at": "2026-10-31 12:40:12 AM"
+                }
+            ]
+        },
+        {
+            "id": "WANAS-004",
+            "name": "Salma Mahmoud",
+            "age": 70,
+            "gps": {
+                "latitude": 31.225,
+                "longitude": 29.94,
+                "accuracy_m": 9,
+                "status": "Disconnected"
+            },
+            "safe_zone": {
+                "name": "Home",
+                "latitude": 31.2245,
+                "longitude": 29.9405,
+                "radius_m": 250
+            },
+            "medications": [
+                {
+                    "name": "Medication F",
+                    "time": "09:00 AM",
+                    "status": "Pending",
+                    "active": true
+                },
+                {
+                    "name": "Med a",
+                    "time": "7:00pm",
+                    "status": "Pending",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "WANAS-005",
+            "name": "Hassan Adel",
+            "age": 79,
+            "gps": {
+                "latitude": 31.205,
+                "longitude": 29.93,
+                "accuracy_m": 7,
+                "status": "Connected"
+            },
+            "safe_zone": {
+                "name": "Home",
+                "latitude": 31.2052,
+                "longitude": 29.9302,
+                "radius_m": 200
+            },
+            "medications": [
+                {
+                    "name": "Medication G",
+                    "time": "07:00 AM",
+                    "status": "Taken (Reported)"
+                },
+                {
+                    "name": "Medication H",
+                    "time": "09:00 PM",
+                    "status": "Taken (Reported)",
+                    "reported_by": "Caregiver",
+                    "updated_at": "2026-10-31 12:44:40 AM"
+                }
+            ]
+        },
+        {
+            "id": "WANAS-006",
+            "name": "Nadia Samir",
+            "age": 66,
+            "gps": {
+                "latitude": 31.18,
+                "longitude": 29.91,
+                "accuracy_m": 11,
+                "status": "Connected"
+            },
+            "safe_zone": {
+                "name": "Home",
+                "latitude": 31.1802,
+                "longitude": 29.9102,
+                "radius_m": 300
+            },
+            "medications": [
+                {
+                    "name": "Medication I",
+                    "time": "11:00 AM",
+                    "status": "Pending"
+                }
+            ]
+        },
+        {
+            "id": "WANAS-007",
+            "name": "Youssef Khaled",
+            "age": 73,
+            "gps": {
+                "latitude": 31.23,
+                "longitude": 29.92,
+                "accuracy_m": 10,
+                "status": "Connected"
+            },
+            "safe_zone": {
+                "name": "Home",
+                "latitude": 31.2305,
+                "longitude": 29.9205,
+                "radius_m": 250
+            },
+            "medications": [
+                {
+                    "name": "Medication J",
+                    "time": "08:30 AM",
+                    "status": "Taken (Reported)"
+                },
+                {
+                    "name": "Medication K",
+                    "time": "07:30 PM",
+                    "status": "Pending"
+                }
+            ]
+        },
+        {
+            "id": "WANAS-008",
+            "name": "Laila Mostafa",
+            "age": 81,
+            "gps": {
+                "latitude": 31.195,
+                "longitude": 29.945,
+                "accuracy_m": 8,
+                "status": "Connected"
+            },
+            "safe_zone": {
+                "name": "Home",
+                "latitude": 31.1952,
+                "longitude": 29.9452,
+                "radius_m": 200
+            },
+            "medications": [
+                {
+                    "name": "Medication L",
+                    "time": "09:00 AM",
+                    "status": "Pending"
+                }
+            ]
+        },
+        {
+            "id": "WANAS-009",
+            "name": "Karim Mostafa",
+            "age": 69,
+            "gps": {
+                "latitude": 31.21,
+                "longitude": 29.905,
+                "accuracy_m": 10,
+                "status": "Disconnected"
+            },
+            "safe_zone": {
+                "name": "Home",
+                "latitude": 31.2105,
+                "longitude": 29.9055,
+                "radius_m": 300
+            },
+            "medications": [
+                {
+                    "name": "Medication M",
+                    "time": "08:00 AM",
+                    "status": "Taken (Reported)"
+                },
+                {
+                    "name": "Medication N",
+                    "time": "08:00 PM",
+                    "status": "Pending"
+                }
+            ]
+        },
+        {
+            "id": "WANAS-010",
+            "name": "Mona Ibrahim",
+            "age": 76,
+            "gps": {
+                "latitude": 31.185,
+                "longitude": 29.935,
+                "accuracy_m": 9,
+                "status": "Connected"
+            },
+            "safe_zone": {
+                "name": "Home",
+                "latitude": 31.1852,
+                "longitude": 29.9352,
+                "radius_m": 250
+            },
+            "medications": [
+                {
+                    "name": "Medication O",
+                    "time": "10:00 AM",
+                    "status": "Pending"
+                },
+                {
+                    "name": "Medication P",
+                    "time": "09:00 PM",
+                    "status": "Taken (Reported)"
+                }
+            ]
+        },
+        {
+            "id": "WANAS-011",
+            "name": "Mark",
+            "age": 80,
+            "gps": {
+                "latitude": 31.2,
+                "longitude": 29.918,
+                "accuracy_m": 10,
+                "status": "Connected"
+            },
+            "safe_zone": {
+                "name": "Home",
+                "latitude": 31.2,
+                "longitude": 29.918,
+                "radius_m": 300
+            },
+            "medications": [
+                {
+                    "name": "vit d",
+                    "time": "09:00 AM",
+                    "status": "Pending"
+                }
+            ]
+        },
+        {
+            "id": "WANAS-012",
+            "name": "Mostafa Nabil",
+            "age": 90,
+            "gps": {
+                "latitude": 35.0,
+                "longitude": 29.918,
+                "accuracy_m": 10,
+                "status": "Connected"
+            },
+            "safe_zone": {
+                "name": "Home",
+                "latitude": 35.0,
+                "longitude": 29.918,
+                "radius_m": 300
+            },
+            "medications": [
+                {
+                    "name": "Med a",
+                    "time": "09:00 AM",
+                    "status": "Pending"
+                }
+            ]
+        },
+        {
+            "id": "WANAS-013",
+            "name": "Asmaa",
+            "age": 90,
+            "gps": {
+                "latitude": 31.22,
+                "longitude": 29.93,
+                "accuracy_m": 10,
+                "status": "Connected"
+            },
+            "safe_zone": {
+                "name": "Home",
+                "latitude": 31.22,
+                "longitude": 29.93,
+                "radius_m": 300
+            },
+            "medications": [
+                {
+                    "name": "Med a",
+                    "time": "09:00 AM",
+                    "status": "Taken (Reported)",
+                    "reported_by": "Caregiver",
+                    "updated_at": "2026-10-31 01:19:17 AM",
+                    "active": true
+                },
+                {
+                    "name": "vit d",
+                    "time": "10:00am",
+                    "status": "Taken (Reported)",
+                    "reported_by": "Caregiver",
+                    "updated_at": "2026-10-31 01:20:12 AM"
+                }
+            ]
+        }
+    ]
+}
