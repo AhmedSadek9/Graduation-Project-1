@@ -1,0 +1,15 @@
+{
+  "engine": "paddle",
+  "preprocess": false,
+  "paddle": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "tesseract": {
+    "lang": "ara+eng",
+    "executable": null,
+    "config": "--oem 3 --psm 6"
+  }
+}

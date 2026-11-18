@@ -1,0 +1,9 @@
+opencv-python
+pillow
+pytesseract
+pandas
+matplotlib
+arabic-reshaper
+python-bidi
+paddlepaddle==3.2.0
+paddleocr==3.7.0
