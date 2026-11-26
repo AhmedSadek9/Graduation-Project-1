@@ -1,0 +1,5 @@
+# Part 1: Memory Schema & JSON Sample Records
+# No external third-party libraries are strictly required for reading JSON in Python 3.8+.
+# Optional (only if regenerating JSON directly from the Excel workbook):
+pandas>=2.0.0
+openpyxl>=3.1.0

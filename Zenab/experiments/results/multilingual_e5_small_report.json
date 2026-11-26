@@ -1,0 +1,35 @@
+{
+  "checkpoint": "intfloat/multilingual-e5-small",
+  "query_prefix": "query: ",
+  "passage_prefix": "passage: ",
+  "validation_tuned_threshold": 0.8824205,
+  "results": {
+    "validation": {
+      "n": 26,
+      "answerable_n": 20,
+      "unanswerable_n": 6,
+      "top1": 0.2,
+      "recall_at_3": 0.9,
+      "mrr_at_5": 0.9,
+      "correct_abstentions": 6,
+      "unsupported_answers": 0,
+      "latency_ms_median": 24.384500002270215
+    },
+    "test": {
+      "n": 36,
+      "answerable_n": 20,
+      "unanswerable_n": 16,
+      "top1": 0.15,
+      "recall_at_3": 1.0,
+      "mrr_at_5": 0.95,
+      "correct_abstentions": 16,
+      "unsupported_answers": 0,
+      "latency_ms_median": 23.48869999877934
+    }
+  },
+  "limitations": [
+    "Synthetic questions and facts",
+    "No actual STT or face outputs",
+    "Checkpoint download / machine-dependent latency"
+  ]
+}

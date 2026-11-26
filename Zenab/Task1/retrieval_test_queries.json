@@ -1,0 +1,1122 @@
+[
+  {
+    "query_id": "Q-person-001-01",
+    "person_id": "person-001",
+    "question": "Who is Omar Hassan?",
+    "expected_fact_id": "person-001-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-001-02",
+    "person_id": "person-001",
+    "question": "What can I talk to Omar Hassan about?",
+    "expected_fact_id": "person-001-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-001-03",
+    "person_id": "person-001",
+    "question": "What is Omar Hassan’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-002-01",
+    "person_id": "person-002",
+    "question": "Who is Salma Nabil?",
+    "expected_fact_id": "person-002-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-002-02",
+    "person_id": "person-002",
+    "question": "What can I talk to Salma Nabil about?",
+    "expected_fact_id": "person-002-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-002-03",
+    "person_id": "person-002",
+    "question": "What is Salma Nabil’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-003-01",
+    "person_id": "person-003",
+    "question": "Who is Karim Adel?",
+    "expected_fact_id": "person-003-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-003-02",
+    "person_id": "person-003",
+    "question": "What can I talk to Karim Adel about?",
+    "expected_fact_id": "person-003-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-003-03",
+    "person_id": "person-003",
+    "question": "What is Karim Adel’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-004-01",
+    "person_id": "person-004",
+    "question": "Who is Mona Ibrahim?",
+    "expected_fact_id": "person-004-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-004-02",
+    "person_id": "person-004",
+    "question": "What can I talk to Mona Ibrahim about?",
+    "expected_fact_id": "person-004-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-004-03",
+    "person_id": "person-004",
+    "question": "What is Mona Ibrahim’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-005-01",
+    "person_id": "person-005",
+    "question": "Who is Youssef Ali?",
+    "expected_fact_id": "person-005-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-005-02",
+    "person_id": "person-005",
+    "question": "What can I talk to Youssef Ali about?",
+    "expected_fact_id": "person-005-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-005-03",
+    "person_id": "person-005",
+    "question": "What is Youssef Ali’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-006-01",
+    "person_id": "person-006",
+    "question": "Who is Nour Mahmoud?",
+    "expected_fact_id": "person-006-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-006-02",
+    "person_id": "person-006",
+    "question": "What can I talk to Nour Mahmoud about?",
+    "expected_fact_id": "person-006-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-006-03",
+    "person_id": "person-006",
+    "question": "What is Nour Mahmoud’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-007-01",
+    "person_id": "person-007",
+    "question": "Who is Hassan Farid?",
+    "expected_fact_id": "person-007-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-007-02",
+    "person_id": "person-007",
+    "question": "What can I talk to Hassan Farid about?",
+    "expected_fact_id": "person-007-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-007-03",
+    "person_id": "person-007",
+    "question": "What is Hassan Farid’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-008-01",
+    "person_id": "person-008",
+    "question": "Who is Laila Samir?",
+    "expected_fact_id": "person-008-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-008-02",
+    "person_id": "person-008",
+    "question": "What can I talk to Laila Samir about?",
+    "expected_fact_id": "person-008-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-008-03",
+    "person_id": "person-008",
+    "question": "What is Laila Samir’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-009-01",
+    "person_id": "person-009",
+    "question": "Who is Tarek Amin?",
+    "expected_fact_id": "person-009-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-009-02",
+    "person_id": "person-009",
+    "question": "What can I talk to Tarek Amin about?",
+    "expected_fact_id": "person-009-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-009-03",
+    "person_id": "person-009",
+    "question": "What is Tarek Amin’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-010-01",
+    "person_id": "person-010",
+    "question": "Who is Dina Fawzy?",
+    "expected_fact_id": "person-010-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-010-02",
+    "person_id": "person-010",
+    "question": "What can I talk to Dina Fawzy about?",
+    "expected_fact_id": "person-010-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-010-03",
+    "person_id": "person-010",
+    "question": "What is Dina Fawzy’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-011-01",
+    "person_id": "person-011",
+    "question": "Who is Mahmoud Saleh?",
+    "expected_fact_id": "person-011-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-011-02",
+    "person_id": "person-011",
+    "question": "What can I talk to Mahmoud Saleh about?",
+    "expected_fact_id": "person-011-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-011-03",
+    "person_id": "person-011",
+    "question": "What is Mahmoud Saleh’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-012-01",
+    "person_id": "person-012",
+    "question": "Who is Heba Khaled?",
+    "expected_fact_id": "person-012-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-012-02",
+    "person_id": "person-012",
+    "question": "What can I talk to Heba Khaled about?",
+    "expected_fact_id": "person-012-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-012-03",
+    "person_id": "person-012",
+    "question": "What is Heba Khaled’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-013-01",
+    "person_id": "person-013",
+    "question": "Who is Adam Nasser?",
+    "expected_fact_id": "person-013-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-013-02",
+    "person_id": "person-013",
+    "question": "What can I talk to Adam Nasser about?",
+    "expected_fact_id": "person-013-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-013-03",
+    "person_id": "person-013",
+    "question": "What is Adam Nasser’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-014-01",
+    "person_id": "person-014",
+    "question": "Who is Rania Mostafa?",
+    "expected_fact_id": "person-014-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-014-02",
+    "person_id": "person-014",
+    "question": "What can I talk to Rania Mostafa about?",
+    "expected_fact_id": "person-014-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-014-03",
+    "person_id": "person-014",
+    "question": "What is Rania Mostafa’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-015-01",
+    "person_id": "person-015",
+    "question": "Who is Fadi Younes?",
+    "expected_fact_id": "person-015-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-015-02",
+    "person_id": "person-015",
+    "question": "What can I talk to Fadi Younes about?",
+    "expected_fact_id": "person-015-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-015-03",
+    "person_id": "person-015",
+    "question": "What is Fadi Younes’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-016-01",
+    "person_id": "person-016",
+    "question": "Who is Mariam Adel?",
+    "expected_fact_id": "person-016-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-016-02",
+    "person_id": "person-016",
+    "question": "What can I talk to Mariam Adel about?",
+    "expected_fact_id": "person-016-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-016-03",
+    "person_id": "person-016",
+    "question": "What is Mariam Adel’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-017-01",
+    "person_id": "person-017",
+    "question": "Who is Ali Hamdy?",
+    "expected_fact_id": "person-017-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-017-02",
+    "person_id": "person-017",
+    "question": "What can I talk to Ali Hamdy about?",
+    "expected_fact_id": "person-017-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-017-03",
+    "person_id": "person-017",
+    "question": "What is Ali Hamdy’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-018-01",
+    "person_id": "person-018",
+    "question": "Who is Sara Ibrahim?",
+    "expected_fact_id": "person-018-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-018-02",
+    "person_id": "person-018",
+    "question": "What can I talk to Sara Ibrahim about?",
+    "expected_fact_id": "person-018-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-018-03",
+    "person_id": "person-018",
+    "question": "What is Sara Ibrahim’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-019-01",
+    "person_id": "person-019",
+    "question": "Who is Mostafa Kamal?",
+    "expected_fact_id": "person-019-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-019-02",
+    "person_id": "person-019",
+    "question": "What can I talk to Mostafa Kamal about?",
+    "expected_fact_id": "person-019-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-019-03",
+    "person_id": "person-019",
+    "question": "What is Mostafa Kamal’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-person-020-01",
+    "person_id": "person-020",
+    "question": "Who is Nada Sherif?",
+    "expected_fact_id": "person-020-F01",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-020-02",
+    "person_id": "person-020",
+    "question": "What can I talk to Nada Sherif about?",
+    "expected_fact_id": "person-020-F06",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-020-03",
+    "person_id": "person-020",
+    "question": "What is Nada Sherif’s phone number?",
+    "expected_fact_id": null,
+    "expected_outcome": "unanswerable"
+  },
+  {
+    "query_id": "Q-U001",
+    "person_id": "unknown-001",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U002",
+    "person_id": "unknown-002",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U003",
+    "person_id": "unknown-003",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U004",
+    "person_id": "unknown-004",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U005",
+    "person_id": "unknown-005",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U006",
+    "person_id": "unknown-006",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U007",
+    "person_id": "unknown-007",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U008",
+    "person_id": "unknown-008",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U009",
+    "person_id": "unknown-009",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U010",
+    "person_id": "unknown-010",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U011",
+    "person_id": "unknown-011",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U012",
+    "person_id": "unknown-012",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U013",
+    "person_id": "unknown-013",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U014",
+    "person_id": "unknown-014",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U015",
+    "person_id": "unknown-015",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U016",
+    "person_id": "unknown-016",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U017",
+    "person_id": "unknown-017",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U018",
+    "person_id": "unknown-018",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U019",
+    "person_id": "unknown-019",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U020",
+    "person_id": "unknown-020",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U021",
+    "person_id": "unknown-021",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U022",
+    "person_id": "unknown-022",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U023",
+    "person_id": "unknown-023",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U024",
+    "person_id": "unknown-024",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U025",
+    "person_id": "unknown-025",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U026",
+    "person_id": "unknown-026",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U027",
+    "person_id": "unknown-027",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U028",
+    "person_id": "unknown-028",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U029",
+    "person_id": "unknown-029",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U030",
+    "person_id": "unknown-030",
+    "question": "Who is this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-person-001-04",
+    "person_id": "person-001",
+    "question": "Where does Omar live?",
+    "expected_fact_id": "person-001-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-001-05",
+    "person_id": "person-001",
+    "question": "What did Omar and I do together in the spring?",
+    "expected_fact_id": "person-001-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-001-06",
+    "person_id": "person-001",
+    "question": "How does Omar help me out?",
+    "expected_fact_id": "person-001-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-002-04",
+    "person_id": "person-002",
+    "question": "Which city does Salma live in?",
+    "expected_fact_id": "person-002-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-002-05",
+    "person_id": "person-002",
+    "question": "Do I have a shared memory with Salma Nabil?",
+    "expected_fact_id": "person-002-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-002-06",
+    "person_id": "person-002",
+    "question": "What does Salma help the family with?",
+    "expected_fact_id": "person-002-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-003-04",
+    "person_id": "person-003",
+    "question": "Where is Karim Adel living right now?",
+    "expected_fact_id": "person-003-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-003-05",
+    "person_id": "person-003",
+    "question": "What did Karim and I watch together last summer?",
+    "expected_fact_id": "person-003-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-003-06",
+    "person_id": "person-003",
+    "question": "What does Karim usually bring when he visits?",
+    "expected_fact_id": "person-003-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-004-04",
+    "person_id": "person-004",
+    "question": "Does Mona live in Alexandria?",
+    "expected_fact_id": "person-004-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-004-05",
+    "person_id": "person-004",
+    "question": "What did Mona and I listen to when we were kids?",
+    "expected_fact_id": "person-004-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-004-06",
+    "person_id": "person-004",
+    "question": "Who keeps copies of our old family photos?",
+    "expected_fact_id": "person-004-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-005-04",
+    "person_id": "person-005",
+    "question": "Where does Youssef Ali live?",
+    "expected_fact_id": "person-005-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-005-05",
+    "person_id": "person-005",
+    "question": "How did I first meet Youssef?",
+    "expected_fact_id": "person-005-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-005-06",
+    "person_id": "person-005",
+    "question": "Does Youssef join us on family outings?",
+    "expected_fact_id": "person-005-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-006-04",
+    "person_id": "person-006",
+    "question": "Where is Nour Mahmoud based?",
+    "expected_fact_id": "person-006-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-006-05",
+    "person_id": "person-006",
+    "question": "What did Nour and I paint together?",
+    "expected_fact_id": "person-006-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-006-06",
+    "person_id": "person-006",
+    "question": "What does Nour share with the family?",
+    "expected_fact_id": "person-006-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-007-04",
+    "person_id": "person-007",
+    "question": "Which city does my brother Hassan live in?",
+    "expected_fact_id": "person-007-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-007-05",
+    "person_id": "person-007",
+    "question": "What game did Hassan and I play on holidays?",
+    "expected_fact_id": "person-007-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-007-06",
+    "person_id": "person-007",
+    "question": "How does Hassan help with family gatherings?",
+    "expected_fact_id": "person-007-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-008-04",
+    "person_id": "person-008",
+    "question": "Where does Laila Samir live?",
+    "expected_fact_id": "person-008-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-008-05",
+    "person_id": "person-008",
+    "question": "What did Laila bring to the neighborhood gathering?",
+    "expected_fact_id": "person-008-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-008-06",
+    "person_id": "person-008",
+    "question": "How does Laila help out in the neighborhood?",
+    "expected_fact_id": "person-008-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-009-04",
+    "person_id": "person-009",
+    "question": "Where does Tarek live?",
+    "expected_fact_id": "person-009-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-009-05",
+    "person_id": "person-009",
+    "question": "Where did Tarek and I visit together?",
+    "expected_fact_id": "person-009-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-009-06",
+    "person_id": "person-009",
+    "question": "What does Tarek share with us?",
+    "expected_fact_id": "person-009-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-010-04",
+    "person_id": "person-010",
+    "question": "Where does Dina Fawzy live?",
+    "expected_fact_id": "person-010-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-010-05",
+    "person_id": "person-010",
+    "question": "What did Dina and I pick out together?",
+    "expected_fact_id": "person-010-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-010-06",
+    "person_id": "person-010",
+    "question": "How does Dina help with family events?",
+    "expected_fact_id": "person-010-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-011-04",
+    "person_id": "person-011",
+    "question": "Does Mahmoud live in Alexandria?",
+    "expected_fact_id": "person-011-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-011-05",
+    "person_id": "person-011",
+    "question": "What event did Mahmoud and I go to together?",
+    "expected_fact_id": "person-011-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-011-06",
+    "person_id": "person-011",
+    "question": "When does Mahmoud usually drop by?",
+    "expected_fact_id": "person-011-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-012-04",
+    "person_id": "person-012",
+    "question": "Where does Heba live?",
+    "expected_fact_id": "person-012-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-012-05",
+    "person_id": "person-012",
+    "question": "What did Heba and I do together for Eid?",
+    "expected_fact_id": "person-012-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-012-06",
+    "person_id": "person-012",
+    "question": "What updates does Heba share?",
+    "expected_fact_id": "person-012-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-013-04",
+    "person_id": "person-013",
+    "question": "Where does Adam Nasser live?",
+    "expected_fact_id": "person-013-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-013-05",
+    "person_id": "person-013",
+    "question": "What did Adam and I make at the picnic?",
+    "expected_fact_id": "person-013-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-013-06",
+    "person_id": "person-013",
+    "question": "What does Adam bring when he comes over?",
+    "expected_fact_id": "person-013-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-014-04",
+    "person_id": "person-014",
+    "question": "Which city does Rania live in?",
+    "expected_fact_id": "person-014-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-014-05",
+    "person_id": "person-014",
+    "question": "What did Rania and I exchange at a family gathering?",
+    "expected_fact_id": "person-014-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-014-06",
+    "person_id": "person-014",
+    "question": "How does Rania help with our family memories?",
+    "expected_fact_id": "person-014-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-015-04",
+    "person_id": "person-015",
+    "question": "Where does Fadi live?",
+    "expected_fact_id": "person-015-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-015-05",
+    "person_id": "person-015",
+    "question": "What memory do I share with Fadi Younes?",
+    "expected_fact_id": "person-015-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-015-06",
+    "person_id": "person-015",
+    "question": "What does Fadi sometimes organize for us?",
+    "expected_fact_id": "person-015-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-016-04",
+    "person_id": "person-016",
+    "question": "Where does Mariam Adel live?",
+    "expected_fact_id": "person-016-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-016-05",
+    "person_id": "person-016",
+    "question": "What did Mariam and I finish together?",
+    "expected_fact_id": "person-016-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-016-06",
+    "person_id": "person-016",
+    "question": "What does Mariam bring on family visits?",
+    "expected_fact_id": "person-016-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-017-04",
+    "person_id": "person-017",
+    "question": "Where does Ali Hamdy live?",
+    "expected_fact_id": "person-017-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-017-05",
+    "person_id": "person-017",
+    "question": "What meal did Ali and I cook together?",
+    "expected_fact_id": "person-017-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-017-06",
+    "person_id": "person-017",
+    "question": "How does Ali help with family events?",
+    "expected_fact_id": "person-017-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-018-04",
+    "person_id": "person-018",
+    "question": "Where does Sara Ibrahim live?",
+    "expected_fact_id": "person-018-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-018-05",
+    "person_id": "person-018",
+    "question": "Where did Sara and I visit together?",
+    "expected_fact_id": "person-018-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-018-06",
+    "person_id": "person-018",
+    "question": "How does Sara help neighbors in our building?",
+    "expected_fact_id": "person-018-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-019-04",
+    "person_id": "person-019",
+    "question": "Where does Mostafa live?",
+    "expected_fact_id": "person-019-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-019-05",
+    "person_id": "person-019",
+    "question": "Where did Mostafa and I go on a family trip?",
+    "expected_fact_id": "person-019-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-019-06",
+    "person_id": "person-019",
+    "question": "What collection does Mostafa keep?",
+    "expected_fact_id": "person-019-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-020-04",
+    "person_id": "person-020",
+    "question": "Where does Nada live?",
+    "expected_fact_id": "person-020-F03",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-020-05",
+    "person_id": "person-020",
+    "question": "What did Nada do at a family gathering?",
+    "expected_fact_id": "person-020-F04",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-person-020-06",
+    "person_id": "person-020",
+    "question": "What does Nada sometimes send to the family?",
+    "expected_fact_id": "person-020-F05",
+    "expected_outcome": "answerable"
+  },
+  {
+    "query_id": "Q-U001-02",
+    "person_id": "unknown-001",
+    "question": "Do I know this person?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U002-02",
+    "person_id": "unknown-002",
+    "question": "Have I met them before?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U003-02",
+    "person_id": "unknown-003",
+    "question": "Are they in my family?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U004-02",
+    "person_id": "unknown-004",
+    "question": "Tell me their name and relationship.",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U005-02",
+    "person_id": "unknown-005",
+    "question": "Is this person one of my neighbors?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U006-02",
+    "person_id": "unknown-006",
+    "question": "Remind me who is standing in front of me.",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U007-02",
+    "person_id": "unknown-007",
+    "question": "Do we have any saved profile for this visitor?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U008-02",
+    "person_id": "unknown-008",
+    "question": "What is their name?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U009-02",
+    "person_id": "unknown-009",
+    "question": "Are they a relative of mine?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  },
+  {
+    "query_id": "Q-U010-02",
+    "person_id": "unknown-010",
+    "question": "Who is visiting me right now?",
+    "expected_fact_id": null,
+    "expected_outcome": "unknown_identity_abstain"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "step": 33,
+  "status": "PAIRING_PLAN_ONLY_NO_REAL_PAIRINGS",
+  "validation_questions": 26,
+  "outcomes": {
+    "answerable": 20,
+    "unanswerable": 4,
+    "unknown_identity_abstain": 2
+  },
+  "known_person_ids": [
+    "person-013",
+    "person-014",
+    "person-015",
+    "person-016"
+  ],
+  "unknown_questions": 2,
+  "actual_images_paired": 0,
+  "actual_stt_pairs": 0,
+  "evaluation_runs_executed": 0,
+  "warnings": [
+    "Source 26-question validation covers only listed known person IDs; do not force unrelated 50-image cohort into these cases.",
+    "Use actual image IDs, documented independently verified identity, stable person mapping, and case review before running Step32.",
+    "Do not treat prior inspected test questions as new independent held-out evaluation.",
+    "The manifest must include reviewed nonempty context for Step32; Step32 currently records but does not consume conversation context.",
+    "Do not fabricate unknown/no_face/no_valid_face outputs; preserve Ahmed actual decision."
+  ]
+}

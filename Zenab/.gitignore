@@ -1,0 +1,43 @@
+# Python / local environment
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+
+# Local machine, caches, and downloaded model weights
+.cache/
+models/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Real patient, biometric, speech and unpublished upstream outputs
+private_data/
+real_data/
+actual_inputs/
+actual_outputs/
+handoff/actual_inputs/
+handoff/actual_outputs/
+experiments/actual_runs/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+
+# Archives and temporary files
+*.zip
+*.7z
+*.rar
+.DS_Store
+Thumbs.db

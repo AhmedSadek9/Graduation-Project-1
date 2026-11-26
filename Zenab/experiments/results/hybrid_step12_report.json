@@ -1,0 +1,49 @@
+{
+  "method": "BM25 + multilingual-e5-small weighted RRF",
+  "k": 60,
+  "e5_weight": 0.9,
+  "bm25_weight": 0.09999999999999998,
+  "retrieval_acceptance_threshold_on_hybrid_fact_e5_score": 0.8824205,
+  "e5_original_frozen_threshold_for_reference": 0.8824205,
+  "selection": "RRF weight and E5-score gate tuned ONLY on validation with correct - 3*(wrong_fact+unsupported); NOT tuned on test",
+  "validation": {
+    "n": 26,
+    "answerable_n": 20,
+    "unanswerable_n": 6,
+    "raw_rank1_correct_n": 17,
+    "accepted_correct_n": 4,
+    "accepted_wrong_fact_n": 0,
+    "unsupported_answer_n": 0,
+    "correct_abstention_n": 6,
+    "missed_answerable_n": 16,
+    "accepted_coverage_all": 0.1538,
+    "answer_precision": 1.0,
+    "answerable_correct_rate": 0.2,
+    "recall_at_3": 0.9,
+    "mrr_at_5": 0.9
+  },
+  "test_exploratory": {
+    "n": 36,
+    "answerable_n": 20,
+    "unanswerable_n": 16,
+    "raw_rank1_correct_n": 18,
+    "accepted_correct_n": 3,
+    "accepted_wrong_fact_n": 0,
+    "unsupported_answer_n": 0,
+    "correct_abstention_n": 16,
+    "missed_answerable_n": 17,
+    "accepted_coverage_all": 0.0833,
+    "answer_precision": 1.0,
+    "answerable_correct_rate": 0.15,
+    "recall_at_3": 1.0,
+    "mrr_at_5": 0.95
+  },
+  "limitations": [
+    "All source facts are synthetic, not caregiver verified",
+    "Test predictions were inspected in earlier steps, so subsequent model development cannot treat this test as pristine held-out evidence",
+    "No actual face recognition or STT predictions",
+    "RRF scores are rank-fusion values, NOT probabilities",
+    "Does not measure real-world or clinical safety",
+    "Latency for fusion is not a fair end-to-end model latency measurement."
+  ]
+}

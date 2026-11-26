@@ -1,0 +1,1387 @@
+{
+  "schema_version": "2.1",
+  "dataset_name": "WANAS Fictional Relationships V2.1",
+  "governance_note": "Synthetic test data only (draft_for_team_review). Do not use as real patient profiles.",
+  "persons": [
+    {
+      "person_id": "person-001",
+      "name": "Omar Hassan",
+      "relationship_to_wearer": "son",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-001-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Omar Hassan is your son.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-001-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Omar keeps a small herb garden on his balcony.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-001-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Omar lives in Alexandria.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-001-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You planted basil together on a spring afternoon.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-001-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Omar helps organize the family appointment calendar.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-001-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask him how the basil plants are doing.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-002",
+      "name": "Salma Nabil",
+      "relationship_to_wearer": "daughter",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-002-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Salma Nabil is your daughter.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-002-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Salma enjoys making traditional bread.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-002-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Salma lives in Cairo.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-002-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You once prepared a family breakfast together.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-002-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Salma helps coordinate family visits.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-002-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask her about her latest bread recipe.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-003",
+      "name": "Karim Adel",
+      "relationship_to_wearer": "grandson",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-003-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Karim Adel is your grandson.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-003-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Karim likes football and drawing team logos.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-003-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Karim lives in Mansoura.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-003-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You watched a football match together last summer.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-003-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Karim often brings photos from school activities.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-003-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask which football team he follows.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-004",
+      "name": "Mona Ibrahim",
+      "relationship_to_wearer": "sister",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-004-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Mona Ibrahim is your sister.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-004-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Mona enjoys old Egyptian songs.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-004-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Mona lives in Alexandria.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-004-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You listened to a favorite radio program together as children.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-004-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Mona keeps copies of old family photographs.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-004-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask her about the radio songs you both remember.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-005",
+      "name": "Youssef Ali",
+      "relationship_to_wearer": "family friend",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-005-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Youssef Ali is your family friend.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-005-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Youssef repairs vintage radios as a hobby.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-005-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Youssef lives in Tanta.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-005-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You met at a neighborhood bookshop years ago.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-005-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Youssef sometimes accompanies the family on outings.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-005-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask him about his newest radio repair.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-006",
+      "name": "Nour Mahmoud",
+      "relationship_to_wearer": "niece",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-006-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Nour Mahmoud is your niece.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-006-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Nour enjoys watercolor painting.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-006-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Nour lives in Giza.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-006-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You painted a seaside postcard together.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-006-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Nour shares illustrated postcards with the family.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-006-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask what she has painted recently.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-007",
+      "name": "Hassan Farid",
+      "relationship_to_wearer": "brother",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-007-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Hassan Farid is your brother.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-007-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Hassan enjoys chess.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-007-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Hassan lives in Sohag.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-007-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You used to play chess during holiday visits.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-007-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Hassan helps arrange transport for family gatherings.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-007-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask him about your last chess game.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-008",
+      "name": "Laila Samir",
+      "relationship_to_wearer": "neighbor",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-008-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Laila Samir is your neighbor.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-008-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Laila grows jasmine near her doorway.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-008-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Laila lives on the same street as you in Alexandria.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-008-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "Laila brought jasmine flowers to a neighborhood gathering.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-008-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Laila can pass along neighborhood notices.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-008-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask how her jasmine is growing.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-009",
+      "name": "Tarek Amin",
+      "relationship_to_wearer": "nephew",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-009-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Tarek Amin is your nephew.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-009-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Tarek enjoys photographing birds.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-009-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Tarek lives in Assiut.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-009-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You visited a riverside park together.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-009-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Tarek shares printed nature photographs.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-009-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask which bird he photographed last.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-010",
+      "name": "Dina Fawzy",
+      "relationship_to_wearer": "cousin",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-010-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Dina Fawzy is your cousin.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-010-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Dina enjoys sewing colorful cushions.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-010-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Dina lives in Cairo.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-010-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You chose fabric for a family celebration together.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-010-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Dina helps plan family celebrations.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-010-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask about her newest sewing project.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-011",
+      "name": "Mahmoud Saleh",
+      "relationship_to_wearer": "old friend",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-011-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Mahmoud Saleh is your old friend.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-011-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Mahmoud collects classic Egyptian films.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-011-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Mahmoud lives in Alexandria.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-011-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You attended an outdoor film screening together.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-011-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Mahmoud sometimes visits for afternoon tea.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-011-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask which classic film he recommends.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-012",
+      "name": "Heba Khaled",
+      "relationship_to_wearer": "daughter-in-law",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-012-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Heba Khaled is your daughter-in-law.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-012-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Heba enjoys arranging flowers.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-012-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Heba lives in Damanhur.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-012-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You decorated a family table together for Eid.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-012-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Heba shares updates about family celebrations.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-012-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask about her favorite seasonal flowers.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-013",
+      "name": "Adam Nasser",
+      "relationship_to_wearer": "grandson",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-013-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Adam Nasser is your grandson.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-013-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Adam builds simple paper airplanes.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-013-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Adam lives in Ismailia.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-013-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You made paper airplanes together at a picnic.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-013-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Adam brings drawings when he visits.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-013-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask him to show his latest airplane design.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-014",
+      "name": "Rania Mostafa",
+      "relationship_to_wearer": "sister-in-law",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-014-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Rania Mostafa is your sister-in-law.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-014-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Rania enjoys making handmade bookmarks.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-014-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Rania lives in Port Said.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-014-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You exchanged books at a family gathering.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-014-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Rania helps organize the family photo album.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-014-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask what book she is reading.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-015",
+      "name": "Fadi Younes",
+      "relationship_to_wearer": "family friend",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-015-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Fadi Younes is your family friend.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-015-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Fadi likes fishing stories.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-015-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Fadi lives in Damietta.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-015-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You shared a picnic by the water years ago.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-015-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Fadi sometimes organizes group outings.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-015-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask about his favorite fishing story.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-016",
+      "name": "Mariam Adel",
+      "relationship_to_wearer": "granddaughter",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-016-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Mariam Adel is your granddaughter.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-016-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Mariam enjoys puzzles.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-016-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Mariam lives in Cairo.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-016-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You completed a colorful puzzle together.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-016-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Mariam brings easy puzzles on family visits.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-016-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask which puzzle she is working on.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-017",
+      "name": "Ali Hamdy",
+      "relationship_to_wearer": "son-in-law",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-017-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Ali Hamdy is your son-in-law.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-017-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Ali enjoys cooking rice dishes.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-017-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Ali lives in Alexandria.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-017-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You prepared lunch for a family gathering together.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-017-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Ali helps coordinate rides to family events.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-017-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask what dish he plans to cook next.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-018",
+      "name": "Sara Ibrahim",
+      "relationship_to_wearer": "neighbor",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-018-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Sara Ibrahim is your neighbor.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-018-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Sara enjoys pottery and clay art.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-018-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Sara lives in the same apartment building as you in Alexandria.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-018-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You visited a local craft fair together.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-018-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Sara shares building announcements with neighbors.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-018-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask about her latest pottery piece.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-019",
+      "name": "Mostafa Kamal",
+      "relationship_to_wearer": "brother-in-law",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-019-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Mostafa Kamal is your brother-in-law.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-019-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Mostafa enjoys local history.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-019-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Mostafa lives in Minya.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-019-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You visited a museum together during a family trip.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-019-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Mostafa keeps a collection of old postcards.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-019-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask which museum exhibit he liked most.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "person_id": "person-020",
+      "name": "Nada Sherif",
+      "relationship_to_wearer": "granddaughter",
+      "source_type": "synthetic_test_data",
+      "status": "fictional_for_testing",
+      "facts": [
+        {
+          "fact_id": "person-020-F01",
+          "fact_type": "identity_relationship",
+          "memory_fact": "Nada Sherif is your granddaughter.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-020-F02",
+          "fact_type": "personal_interest",
+          "memory_fact": "Nada enjoys playing the oud.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-020-F03",
+          "fact_type": "location_context",
+          "memory_fact": "Nada lives in Fayoum.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-020-F04",
+          "fact_type": "shared_memory",
+          "memory_fact": "You listened to her play at a family gathering.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-020-F05",
+          "fact_type": "practical_support",
+          "memory_fact": "Nada sometimes records short music clips for the family.",
+          "display_tier": 1,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        },
+        {
+          "fact_id": "person-020-F06",
+          "fact_type": "conversation_starter",
+          "memory_fact": "Ask what melody she is practicing.",
+          "display_tier": 2,
+          "source_type": "synthetic_test_data",
+          "verification_status": "verified_in_fictional_scenario",
+          "review_status": "draft_for_team_review",
+          "last_updated": "2026-11-20"
+        }
+      ]
+    }
+  ]
+}

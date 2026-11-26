@@ -1,0 +1,11 @@
+{
+  "method": "BM25",
+  "k1": 1.5,
+  "b": 0.75,
+  "acceptance_threshold": 0.657456,
+  "tuned_on": "validation_only",
+  "candidate_filter": "exact_person_id_and_demo_verification_before_ranking",
+  "mode": "synthetic_demo",
+  "source": "WANAS_Fictional_Relationships_V2",
+  "status": "BM25 baseline, not a selected winner against semantic models"
+}

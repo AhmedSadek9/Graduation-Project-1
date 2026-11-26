@@ -1,0 +1,171 @@
+{
+  "model": "multilingual_e5_small",
+  "frozen_threshold": 0.8824205,
+  "validation": {
+    "total": 26,
+    "answerable": 20,
+    "answered": 4,
+    "correct": 4,
+    "wrong_fact": 0,
+    "unsupported": 0,
+    "correct_abstention": 6,
+    "missed_answerable": 16,
+    "unanswerable": 6,
+    "coverage": 0.1538,
+    "answer_precision": 1.0,
+    "correct_answer_rate_all": 0.1538,
+    "correct_answer_rate_answerable": 0.2,
+    "examples": [
+      {
+        "query_id": "Q-person-013-01",
+        "case": "missed_answerable",
+        "score": 0.868043,
+        "top_fact_id": "person-013-F03",
+        "acceptable_fact_ids": [
+          "person-013-F01"
+        ]
+      },
+      {
+        "query_id": "Q-person-013-02",
+        "case": "missed_answerable",
+        "score": 0.868992,
+        "top_fact_id": "person-013-F06",
+        "acceptable_fact_ids": [
+          "person-013-F06"
+        ]
+      },
+      {
+        "query_id": "Q-person-015-01",
+        "case": "missed_answerable",
+        "score": 0.876613,
+        "top_fact_id": "person-015-F01",
+        "acceptable_fact_ids": [
+          "person-015-F01"
+        ]
+      },
+      {
+        "query_id": "Q-person-015-02",
+        "case": "missed_answerable",
+        "score": 0.88164,
+        "top_fact_id": "person-015-F01",
+        "acceptable_fact_ids": [
+          "person-015-F06"
+        ]
+      },
+      {
+        "query_id": "Q-person-016-01",
+        "case": "missed_answerable",
+        "score": 0.866403,
+        "top_fact_id": "person-016-F01",
+        "acceptable_fact_ids": [
+          "person-016-F01"
+        ]
+      }
+    ]
+  },
+  "test_at_frozen_threshold": {
+    "total": 36,
+    "answerable": 20,
+    "answered": 3,
+    "correct": 3,
+    "wrong_fact": 0,
+    "unsupported": 0,
+    "correct_abstention": 16,
+    "missed_answerable": 17,
+    "unanswerable": 16,
+    "coverage": 0.0833,
+    "answer_precision": 1.0,
+    "correct_answer_rate_all": 0.0833,
+    "correct_answer_rate_answerable": 0.15,
+    "examples": [
+      {
+        "query_id": "Q-person-017-01",
+        "case": "missed_answerable",
+        "score": 0.879447,
+        "top_fact_id": "person-017-F03",
+        "acceptable_fact_ids": [
+          "person-017-F01"
+        ]
+      },
+      {
+        "query_id": "Q-person-017-02",
+        "case": "missed_answerable",
+        "score": 0.872612,
+        "top_fact_id": "person-017-F06",
+        "acceptable_fact_ids": [
+          "person-017-F06"
+        ]
+      },
+      {
+        "query_id": "Q-person-018-01",
+        "case": "missed_answerable",
+        "score": 0.855461,
+        "top_fact_id": "person-018-F01",
+        "acceptable_fact_ids": [
+          "person-018-F01"
+        ]
+      },
+      {
+        "query_id": "Q-person-018-02",
+        "case": "missed_answerable",
+        "score": 0.871443,
+        "top_fact_id": "person-018-F06",
+        "acceptable_fact_ids": [
+          "person-018-F06"
+        ]
+      },
+      {
+        "query_id": "Q-person-019-01",
+        "case": "missed_answerable",
+        "score": 0.86685,
+        "top_fact_id": "person-019-F01",
+        "acceptable_fact_ids": [
+          "person-019-F01"
+        ]
+      }
+    ]
+  },
+  "validation_zero_error_candidates": [
+    {
+      "threshold": 0.882421,
+      "correct": 4,
+      "wrong_fact": 0,
+      "unsupported": 0,
+      "precision": 1.0,
+      "coverage": 0.1538
+    },
+    {
+      "threshold": 0.88573,
+      "correct": 3,
+      "wrong_fact": 0,
+      "unsupported": 0,
+      "precision": 1.0,
+      "coverage": 0.1154
+    },
+    {
+      "threshold": 0.889146,
+      "correct": 2,
+      "wrong_fact": 0,
+      "unsupported": 0,
+      "precision": 1.0,
+      "coverage": 0.0769
+    },
+    {
+      "threshold": 0.894447,
+      "correct": 1,
+      "wrong_fact": 0,
+      "unsupported": 0,
+      "precision": 1.0,
+      "coverage": 0.0385
+    },
+    {
+      "threshold": 0.898863,
+      "correct": 0,
+      "wrong_fact": 0,
+      "unsupported": 0,
+      "precision": null,
+      "coverage": 0.0
+    }
+  ],
+  "note": "Never select a threshold using held-out test results. These are synthetic-fixture metrics, not clinical reliability."
+}

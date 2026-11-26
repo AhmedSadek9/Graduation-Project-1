@@ -1,0 +1,76 @@
+{
+  "scope": "exploratory previously inspected synthetic data; NOT new held-out evaluation",
+  "model": "intfloat/multilingual-e5-small",
+  "threshold": 0.8824205,
+  "query_variant": "question_only",
+  "behavior": "Step21 fact-type filter BEFORE acceptance; E5 ranks and scores read from saved prediction file",
+  "not_tested": "actual face/STT; live model latency; independent reviewer; real caregiver approval",
+  "metrics": {
+    "train": {
+      "total": 78,
+      "answerable_n": 60,
+      "unanswerable_n": 18,
+      "raw_rank1_correct_n": 51,
+      "recall_at_3": 1.0,
+      "mrr_at_5": 0.9222,
+      "accepted_n": 9,
+      "accepted_correct_n": 9,
+      "accepted_wrong_fact_n": 0,
+      "unsupported_answer_n": 0,
+      "correct_abstentions_n": 18,
+      "missed_answerable_n": 51,
+      "accepted_precision": 1.0,
+      "answerable_correct_rate": 0.15,
+      "abstention_reasons": {
+        "below_frozen_retrieval_threshold": 46,
+        "unsupported_contact_information": 12,
+        "no_matching_verified_fact_type": 6,
+        "unrecognized_question_intent": 5
+      }
+    },
+    "validation": {
+      "total": 26,
+      "answerable_n": 20,
+      "unanswerable_n": 6,
+      "raw_rank1_correct_n": 17,
+      "recall_at_3": 0.9,
+      "mrr_at_5": 0.9,
+      "accepted_n": 4,
+      "accepted_correct_n": 4,
+      "accepted_wrong_fact_n": 0,
+      "unsupported_answer_n": 0,
+      "correct_abstentions_n": 6,
+      "missed_answerable_n": 16,
+      "accepted_precision": 1.0,
+      "answerable_correct_rate": 0.2,
+      "abstention_reasons": {
+        "below_frozen_retrieval_threshold": 14,
+        "unsupported_contact_information": 4,
+        "no_matching_verified_fact_type": 2,
+        "unrecognized_question_intent": 2
+      }
+    },
+    "test": {
+      "total": 36,
+      "answerable_n": 20,
+      "unanswerable_n": 16,
+      "raw_rank1_correct_n": 18,
+      "recall_at_3": 1.0,
+      "mrr_at_5": 0.95,
+      "accepted_n": 3,
+      "accepted_correct_n": 3,
+      "accepted_wrong_fact_n": 0,
+      "unsupported_answer_n": 0,
+      "correct_abstentions_n": 16,
+      "missed_answerable_n": 17,
+      "accepted_precision": 1.0,
+      "answerable_correct_rate": 0.15,
+      "abstention_reasons": {
+        "below_frozen_retrieval_threshold": 14,
+        "unsupported_contact_information": 4,
+        "no_matching_verified_fact_type": 12,
+        "unrecognized_question_intent": 3
+      }
+    }
+  }
+}

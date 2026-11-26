@@ -1,0 +1,4 @@
+﻿example_type,query_id,person_id,expected_fact_id,expected_response,expected_abstention_reason,data_origin
+verified_synthetic_demo,Q-person-001-01,person-001,person-001-F01,Omar Hassan is your son.,,synthetic_demo
+missing_fact,Q-person-001-03,person-001,,No verified information available for this request.,unanswerable,synthetic_demo
+unknown_person,Q-U001-01,unknown-001,,Unrecognized visitor — no saved profile.,unknown_identity_abstain,synthetic_demo

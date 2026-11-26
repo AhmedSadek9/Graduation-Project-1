@@ -1,0 +1,5 @@
+method,accepted_correct_n,answerable_n,recall_at_3,mrr_at_5,correct_abstention_n,unanswerable_or_unknown_n,unsupported_n,wrong_fact_n,median_latency_ms,threshold,source
+BM25,12,20,0.90,0.7975,12,16,4,3,0.044998,0.657456,uploaded_bm25_report
+all-MiniLM-L6-v2,2,20,0.75,0.71,16,16,0,1,73.5854,0.7890985,user_terminal_output
+multilingual-e5-small,3,20,1.00,0.95,16,16,0,0,23.33275,0.8824205,user_terminal_output
+Hybrid BM25+E5,3,20,1.00,0.95,16,16,0,0,,0.882421,user_terminal_output

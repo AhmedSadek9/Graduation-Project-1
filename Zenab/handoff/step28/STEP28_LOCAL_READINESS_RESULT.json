@@ -1,0 +1,10 @@
+{
+  "local_document_check": "PASS",
+  "independent_evaluation": "PENDING_HUMAN_REVIEW_AND_NEW_UNSEEN_SET",
+  "actual_face_integration": "PENDING_AHMED_INPUT",
+  "actual_stt_integration": "PENDING_TOQA_INPUT",
+  "production_e5": "NOT_APPROVED",
+  "missing_files": [],
+  "step27_policy_verified": true,
+  "step27_review_queue_rows": 40
+}

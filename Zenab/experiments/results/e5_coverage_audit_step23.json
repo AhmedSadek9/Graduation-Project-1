@@ -1,0 +1,34 @@
+{
+  "scope": "EXPLORATORY; synthetic fixture, prior viewed test, oracle person IDs",
+  "frozen_threshold": 0.8824205,
+  "configuration_id": "zinab-e5-question-only-typeguard-exploratory-v1",
+  "important": "Oracle candidate comparison is diagnostic only; not available to runtime.",
+  "metrics": {
+    "validation": {
+      "questions": 26,
+      "answerable": 20,
+      "categories": {
+        "correct_abstention": 6,
+        "correct_answer": 4,
+        "intent_unrecognized": 2,
+        "threshold_rejected_correct_candidate": 14
+      },
+      "threshold_correct_candidate_rejected": 14,
+      "threshold_wrong_candidate_rejected": 0,
+      "intent_unrecognized": 2
+    },
+    "test": {
+      "questions": 36,
+      "answerable": 20,
+      "categories": {
+        "correct_abstention": 16,
+        "correct_answer": 3,
+        "intent_unrecognized": 3,
+        "threshold_rejected_correct_candidate": 14
+      },
+      "threshold_correct_candidate_rejected": 14,
+      "threshold_wrong_candidate_rejected": 0,
+      "intent_unrecognized": 3
+    }
+  }
+}

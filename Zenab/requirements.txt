@@ -1,1 +1,4 @@
-
+# Runtime module uses Python standard library.
+# Required for Task4/test_schema_validation_step8.py:
+jsonschema>=4.18,<5
+# Optional (only when regenerating JSON from Excel): pandas and openpyxl.

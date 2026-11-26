@@ -1,0 +1,14 @@
+{
+  "step": 30,
+  "status": "WAITING_FOR_REAL_PAIRINGS",
+  "question_pool_n": 140,
+  "case_rows": 0,
+  "linked_rows": 0,
+  "face_decision_rows": 0,
+  "actual_stt_rows": 0,
+  "errors": [],
+  "warnings": [
+    "No real image/question case pairings yet; evaluation remains pending."
+  ],
+  "note": "Preflight only. Not a face/STT integration run, and not independent held-out evaluation."
+}

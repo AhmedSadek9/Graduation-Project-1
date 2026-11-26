@@ -1,0 +1,119 @@
+[
+  {
+    "label": "verified_answer",
+    "request": {
+      "face_result": {
+        "status": "recognized",
+        "person_id": "person-001",
+        "recognition_confidence": 0.95
+      },
+      "intent": "retrieve_memory",
+      "question": "Who is Omar Hassan?"
+    },
+    "response": {
+      "intent": "retrieve_memory",
+      "status": "answerable",
+      "person_id": "person-001",
+      "question": "Who is Omar Hassan?",
+      "spoken_text": "Omar Hassan is your son.",
+      "fact_id": "person-001-F01",
+      "fact_type": "identity_relationship",
+      "can_speak_personal_memory": true
+    },
+    "data_mode": "demo",
+    "origin": "synthetic_demo"
+  },
+  {
+    "label": "missing_fact",
+    "request": {
+      "face_result": {
+        "status": "recognized",
+        "person_id": "person-001",
+        "recognition_confidence": 0.95
+      },
+      "intent": "retrieve_memory",
+      "question": "What is Omar Hassan's phone number?"
+    },
+    "response": {
+      "intent": "retrieve_memory",
+      "status": "unanswerable",
+      "person_id": "person-001",
+      "question": "What is Omar Hassan's phone number?",
+      "spoken_text": "No verified information available for this request.",
+      "fact_id": null,
+      "fact_type": null,
+      "can_speak_personal_memory": false
+    },
+    "data_mode": "demo",
+    "origin": "synthetic_demo"
+  },
+  {
+    "label": "unresolved_person",
+    "request": {
+      "face_result": {
+        "status": "unknown",
+        "person_id": null,
+        "recognition_confidence": 0.1
+      },
+      "intent": "identify_person",
+      "question": null
+    },
+    "response": {
+      "status": "face_not_recognized_abstain",
+      "intent": "identify_person",
+      "person_id": null,
+      "spoken_text": "Identity not confirmed — no personal memory available.",
+      "can_speak_personal_memory": false
+    },
+    "data_mode": "demo",
+    "origin": "synthetic_mock_face"
+  },
+  {
+    "label": "person_mismatch",
+    "request": {
+      "face_result": {
+        "status": "recognized",
+        "person_id": "person-001",
+        "recognition_confidence": 0.95
+      },
+      "intent": "retrieve_memory",
+      "question": "Who is Salma Nabil?"
+    },
+    "response": {
+      "intent": "retrieve_memory",
+      "status": "person_mismatch_abstain",
+      "person_id": "person-001",
+      "question": "Who is Salma Nabil?",
+      "spoken_text": "The person mentioned in the question does not match the recognized identity. Please verify the person.",
+      "fact_id": null,
+      "fact_type": null,
+      "can_speak_personal_memory": false
+    },
+    "data_mode": "demo",
+    "origin": "synthetic_mock_face"
+  },
+  {
+    "label": "production_blocks_synthetic",
+    "request": {
+      "face_result": {
+        "status": "recognized",
+        "person_id": "person-001",
+        "recognition_confidence": 0.95
+      },
+      "intent": "retrieve_memory",
+      "question": "Who is Omar Hassan?"
+    },
+    "response": {
+      "intent": "retrieve_memory",
+      "status": "no_verified_facts",
+      "person_id": "person-001",
+      "question": "Who is Omar Hassan?",
+      "spoken_text": "No caregiver-approved memory is available for this person.",
+      "fact_id": null,
+      "fact_type": null,
+      "can_speak_personal_memory": false
+    },
+    "data_mode": "production",
+    "origin": "synthetic_mock_face"
+  }
+]

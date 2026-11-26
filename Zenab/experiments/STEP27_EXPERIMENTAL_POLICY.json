@@ -1,0 +1,24 @@
+{
+  "policy_id": "step27_candidate_e5_080_EXPLORATORY_ONLY",
+  "status": "LOCKED_FOR_FUTURE_HUMAN_REVIEW_NOT_DEPLOYABLE",
+  "model": "intfloat/multilingual-e5-small",
+  "candidate_threshold": 0.8,
+  "baseline_threshold": 0.8824205,
+  "query_variant": "question_only",
+  "identity_filter": "enforce recognized person_id before retrieval",
+  "fact_type_guard": "existing Step15 rules; Step25 is proposal ONLY",
+  "verification": "approved facts only; synthetic blocked in production",
+  "safety": "reject unknown/low-confidence/mismatched identity and unsupported information",
+  "selection_note": "0.80 described on previously inspected validation; NOT independently validated",
+  "do_not_change": [
+    "frozen_e5_config_step16.json",
+    "production bridge",
+    "120 original synthetic facts"
+  ],
+  "inputs_sha256": {
+    "step16_draft": "f8ec7eacc58625633f647588975ede453659863d83b80f99ed5199ae619d855a",
+    "old_questions": "b40f2d968b13f8611897dc30ae8328b23a5d51d21b8dc94984f1a8c016290b20",
+    "fact_manifest": "115ddabc3bf756fafe344ced351d161092adbcfc6ac0d72184ecee8840da2b97",
+    "frozen_config": "2f643223afb285a610b8436ca3378aa521d54fa80367f57e9a2d11f3b243f88b"
+  }
+}
