@@ -1,0 +1,120 @@
+{
+  "method": "BM25",
+  "data_origin": "synthetic_demo",
+  "threshold": 0.657456,
+  "counts_by_split": {
+    "train": {
+      "answerable": 60,
+      "unanswerable": 12,
+      "unknown_identity_abstain": 6
+    },
+    "validation": {
+      "answerable": 20,
+      "unanswerable": 4,
+      "unknown_identity_abstain": 2
+    },
+    "test": {
+      "answerable": 20,
+      "unanswerable": 4,
+      "unknown_identity_abstain": 12
+    }
+  },
+  "results": {
+    "train": {
+      "question_count": 78,
+      "independent_original_question_groups": 78,
+      "answerable_n": 60,
+      "unanswerable_or_unknown_n": 18,
+      "top1_correctness_answerable": 0.65,
+      "recall_at_3_answerable": 0.8166666666666667,
+      "mrr_at_5_answerable": 0.7619444444444444,
+      "correct_abstention_n": 6,
+      "correct_abstention_rate": 0.3333333333333333,
+      "unsupported_answer_n": 12,
+      "wrong_answer_on_answerable_n": 8,
+      "answer_coverage": 0.7564102564102564,
+      "answer_precision": 0.6610169491525424,
+      "median_latency_ms": 0.04662999998572559,
+      "p95_latency_ms": 0.06564900002103968
+    },
+    "validation": {
+      "question_count": 26,
+      "independent_original_question_groups": 26,
+      "answerable_n": 20,
+      "unanswerable_or_unknown_n": 6,
+      "top1_correctness_answerable": 0.8,
+      "recall_at_3_answerable": 0.95,
+      "mrr_at_5_answerable": 0.8666666666666666,
+      "correct_abstention_n": 2,
+      "correct_abstention_rate": 0.3333333333333333,
+      "unsupported_answer_n": 4,
+      "wrong_answer_on_answerable_n": 0,
+      "answer_coverage": 0.7692307692307693,
+      "answer_precision": 0.8,
+      "median_latency_ms": 0.04501249998156709,
+      "p95_latency_ms": 0.04982499996231127
+    },
+    "test": {
+      "question_count": 36,
+      "independent_original_question_groups": 36,
+      "answerable_n": 20,
+      "unanswerable_or_unknown_n": 16,
+      "top1_correctness_answerable": 0.6,
+      "recall_at_3_answerable": 0.9,
+      "mrr_at_5_answerable": 0.7975,
+      "correct_abstention_n": 12,
+      "correct_abstention_rate": 0.75,
+      "unsupported_answer_n": 4,
+      "wrong_answer_on_answerable_n": 3,
+      "answer_coverage": 0.5277777777777778,
+      "answer_precision": 0.631578947368421,
+      "median_latency_ms": 0.04499799999280185,
+      "p95_latency_ms": 0.061522000009972544
+    }
+  },
+  "limitations": [
+    "Only six candidate facts/person; lexical matching only",
+    "Current source contains 120 synthetic facts; no caregiver approval",
+    "Question prompts are template-style; metrics not real-world reliability",
+    "No actual face or STT predictions"
+  ]
+}
+Wrote: /mnt/data/WANAS_Zinab_Evaluation_Updated/experiments/results
+{
+  "query_text": "Does Nada record music clips for the family?",
+  "query_origin": "constructed_diagnostic_example_not_original_reported_query",
+  "person_id": "person-020",
+  "target_fact_id": "person-020-F05",
+  "target_fact_text": "Nada sometimes records short music clips for the family.",
+  "filter_survived": true,
+  "candidate_fact_ids": [
+    "person-020-F01",
+    "person-020-F02",
+    "person-020-F03",
+    "person-020-F04",
+    "person-020-F05",
+    "person-020-F06"
+  ],
+  "ranked_fact_ids": [
+    "person-020-F05",
+    "person-020-F02",
+    "person-020-F04",
+    "person-020-F03",
+    "person-020-F01",
+    "person-020-F06"
+  ],
+  "ranked_scores": [
+    6.083245,
+    1.203538,
+    0.988889,
+    0.114154,
+    0.110449,
+    0.0752
+  ],
+  "target_rank": 1,
+  "winning_score": 6.083244790007408,
+  "threshold": 0.657456,
+  "accepted": true,
+  "checkpoint": "filter -> rank -> threshold",
+  "original_not_found_bug_repaired": "NOT_VERIFIED_original_query_missing"
+}

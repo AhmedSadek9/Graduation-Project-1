@@ -1,0 +1,19 @@
+{
+  "step": "27",
+  "status": "REVIEW_PREPARATION_ONLY_NOT_READY_FOR_BLIND_TEST",
+  "generated_utc": "2026-11-21T00:04:16+00:00",
+  "question_count": 40,
+  "answerable": 20,
+  "unanswerable": 20,
+  "unique_persons": 20,
+  "structural_errors": [],
+  "provenance_warning_count": 40,
+  "human_review_completed": 0,
+  "blind_holdout_claim_permitted": false,
+  "next_action": "Hanaa: review draft source facts/IDs/ambiguity/leakage. For true independent holdout, separately author fresh unseen questions and have a different reviewer approve before scoring.",
+  "files_created": [
+    "STEP27_HANAA_REVIEW_QUEUE.csv",
+    "STEP27_EXPERIMENTAL_POLICY.json",
+    "STEP27_READINESS_REPORT.json"
+  ]
+}

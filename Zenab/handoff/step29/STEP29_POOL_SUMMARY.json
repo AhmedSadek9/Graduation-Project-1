@@ -1,0 +1,18 @@
+{
+  "source_questions": 140,
+  "source_splits": {
+    "train": 78,
+    "validation": 26,
+    "test": 36
+  },
+  "source_outcomes": {
+    "answerable": 100,
+    "unanswerable": 20,
+    "unknown_identity_abstain": 20
+  },
+  "question_pool_file": "handoff\\step29\\STEP29_QUESTION_POOL.csv",
+  "case_manifest_file": "handoff\\step29\\CASE_MANIFEST_WORKING.csv",
+  "case_manifest_action": "CREATED EMPTY — no actual image/utterance IDs available",
+  "evaluation_status": "NOT RUN; NO ACTUAL FACE/STT OUTPUTS",
+  "note": "Source test questions are previously inspected, NOT a fresh independent held-out set."
+}

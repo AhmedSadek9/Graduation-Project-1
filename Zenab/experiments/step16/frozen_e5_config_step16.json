@@ -1,0 +1,31 @@
+{
+  "configuration_id": "zinab-e5-question-only-typeguard-exploratory-v1",
+  "status": "PROVISIONAL_FROZEN_FOR_NEW_BLIND_EVALUATION_NOT_PRODUCTION_APPROVED",
+  "model": "intfloat/multilingual-e5-small",
+  "e5_query_prefix": "query: ",
+  "e5_passage_prefix": "passage: ",
+  "query_variant": "question_only",
+  "last_request": "not_appended_to_query",
+  "identity": "filter_candidate_facts_by_recognized_person_id_before_ranking",
+  "verification_filter": "synthetic_test_data + verified_in_fictional_scenario + draft_for_team_review (DEMO ONLY)",
+  "production_mode": "requires independent caregiver approval; synthetic facts always blocked",
+  "ranking": "cosine similarity of normalized E5 embeddings",
+  "acceptance_threshold": 0.8824205,
+  "acceptance_rule": "highest ranked candidate with allowed question-intent fact_type and its own score >= frozen threshold; else abstain",
+  "guard_source": "experiments/fact_type_guard_step15.py",
+  "selection_basis": "prior exploratory validation; prior test repeatedly inspected",
+  "known_limits": [
+    "Rule-based English-heavy intent detection",
+    "Context/last-request experimental only",
+    "No real face/STT upstream predictions",
+    "No untouched final evaluation yet"
+  ],
+  "checksums_sha256": {
+    "fact_manifest": "115ddabc3bf756fafe344ced351d161092adbcfc6ac0d72184ecee8840da2b97",
+    "question_manifest": "b40f2d968b13f8611897dc30ae8328b23a5d51d21b8dc94984f1a8c016290b20",
+    "e5_report": "4ef5cb401cc820dfbc0adbfbfaf5e11ee7fd2cffbe507c04e5bd30af407e5f5c",
+    "guard_script": "3d50f08d8a09a48498de1ce09b27697238170dbe523ee4672ed8fd843a6f4d43",
+    "context_script": "1bc85c1210a0506b7f4550438f0729a8fec2cef8d13b877b2e67d65cce7ebd80"
+  },
+  "created_utc": "2026-11-20T22:44:17+00:00"
+}

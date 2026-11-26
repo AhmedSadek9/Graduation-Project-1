@@ -1,0 +1,8 @@
+﻿threshold,n,answerable_n,unanswerable_n,accepted_correct_n,accepted_wrong_fact_n,unsupported_answer_n,correct_abstentions_n,missed_answerable_n,accepted_precision,answerable_correct_rate,unanswerable_rejection_rate
+0.8,26,20,6,18,0,0,6,2,1.0,0.9,1.0
+0.82,26,20,6,17,0,0,6,3,1.0,0.85,1.0
+0.84,26,20,6,16,0,0,6,4,1.0,0.8,1.0
+0.86,26,20,6,12,0,0,6,8,1.0,0.6,1.0
+0.88,26,20,6,5,0,0,6,15,1.0,0.25,1.0
+0.8824205,26,20,6,4,0,0,6,16,1.0,0.2,1.0
+0.9,26,20,6,0,0,0,6,20,,0.0,1.0

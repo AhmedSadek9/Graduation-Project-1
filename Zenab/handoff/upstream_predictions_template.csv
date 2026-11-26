@@ -1,0 +1,37 @@
+﻿query_id,actual_person_id,face_status,face_raw_similarity,face_confidence_calibrated,face_model_version,reference_transcript,actual_stt_transcript,stt_model_version,run_id,data_origin
+Q-person-017-01,,,,,,Who is Ali Hamdy?,,,,ACTUAL_PENDING
+Q-person-017-02,,,,,,What can I talk to Ali Hamdy about?,,,,ACTUAL_PENDING
+Q-person-017-03,,,,,,What is Ali Hamdy’s phone number?,,,,ACTUAL_PENDING
+Q-person-018-01,,,,,,Who is Sara Ibrahim?,,,,ACTUAL_PENDING
+Q-person-018-02,,,,,,What can I talk to Sara Ibrahim about?,,,,ACTUAL_PENDING
+Q-person-018-03,,,,,,What is Sara Ibrahim’s phone number?,,,,ACTUAL_PENDING
+Q-person-019-01,,,,,,Who is Mostafa Kamal?,,,,ACTUAL_PENDING
+Q-person-019-02,,,,,,What can I talk to Mostafa Kamal about?,,,,ACTUAL_PENDING
+Q-person-019-03,,,,,,What is Mostafa Kamal’s phone number?,,,,ACTUAL_PENDING
+Q-person-020-01,,,,,,Who is Nada Sherif?,,,,ACTUAL_PENDING
+Q-person-020-02,,,,,,What can I talk to Nada Sherif about?,,,,ACTUAL_PENDING
+Q-person-020-03,,,,,,What is Nada Sherif’s phone number?,,,,ACTUAL_PENDING
+Q-U009,,,,,,Who is this person?,,,,ACTUAL_PENDING
+Q-U010,,,,,,Who is this person?,,,,ACTUAL_PENDING
+Q-U011,,,,,,Who is this person?,,,,ACTUAL_PENDING
+Q-U012,,,,,,Who is this person?,,,,ACTUAL_PENDING
+Q-U013,,,,,,Who is this person?,,,,ACTUAL_PENDING
+Q-U014,,,,,,Who is this person?,,,,ACTUAL_PENDING
+Q-U015,,,,,,Who is this person?,,,,ACTUAL_PENDING
+Q-U016,,,,,,Who is this person?,,,,ACTUAL_PENDING
+Q-U017,,,,,,Who is this person?,,,,ACTUAL_PENDING
+Q-U018,,,,,,Who is this person?,,,,ACTUAL_PENDING
+Q-U019,,,,,,Who is this person?,,,,ACTUAL_PENDING
+Q-U020,,,,,,Who is this person?,,,,ACTUAL_PENDING
+Q-person-017-04,,,,,,Where does Ali Hamdy live?,,,,ACTUAL_PENDING
+Q-person-017-05,,,,,,What meal did Ali and I cook together?,,,,ACTUAL_PENDING
+Q-person-017-06,,,,,,How does Ali help with family events?,,,,ACTUAL_PENDING
+Q-person-018-04,,,,,,Where does Sara Ibrahim live?,,,,ACTUAL_PENDING
+Q-person-018-05,,,,,,Where did Sara and I visit together?,,,,ACTUAL_PENDING
+Q-person-018-06,,,,,,How does Sara help neighbors in our building?,,,,ACTUAL_PENDING
+Q-person-019-04,,,,,,Where does Mostafa live?,,,,ACTUAL_PENDING
+Q-person-019-05,,,,,,Where did Mostafa and I go on a family trip?,,,,ACTUAL_PENDING
+Q-person-019-06,,,,,,What collection does Mostafa keep?,,,,ACTUAL_PENDING
+Q-person-020-04,,,,,,Where does Nada live?,,,,ACTUAL_PENDING
+Q-person-020-05,,,,,,What did Nada do at a family gathering?,,,,ACTUAL_PENDING
+Q-person-020-06,,,,,,What does Nada sometimes send to the family?,,,,ACTUAL_PENDING

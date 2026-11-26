@@ -1,0 +1,185 @@
+{
+  "total_prediction_rows": 310,
+  "unique_scenario_question_keys": 310,
+  "duplicate_scenario_question_keys": {},
+  "scenarios": {
+    "question_identity_last_request": {
+      "validation": {
+        "n": 26,
+        "issues": [
+          {
+            "kind": "wrong_fact",
+            "query_id": "Q-person-015-02",
+            "person_id": "person-015",
+            "question": "What can I talk to Fadi Younes about?",
+            "selected_fact_id": "person-015-F01",
+            "selected_fact_type": "identity_relationship",
+            "selected_fact_text": "Fadi Younes is your family friend.",
+            "acceptable_fact_ids": [
+              "person-015-F06"
+            ],
+            "top_score": 0.894213
+          },
+          {
+            "kind": "unsupported_answer",
+            "query_id": "Q-person-015-03",
+            "person_id": "person-015",
+            "question": "What is Fadi Younes’s phone number?",
+            "selected_fact_id": "person-015-F01",
+            "selected_fact_type": "identity_relationship",
+            "selected_fact_text": "Fadi Younes is your family friend.",
+            "acceptable_fact_ids": [],
+            "top_score": 0.888385
+          },
+          {
+            "kind": "unsupported_answer",
+            "query_id": "Q-person-016-03",
+            "person_id": "person-016",
+            "question": "What is Mariam Adel’s phone number?",
+            "selected_fact_id": "person-016-F06",
+            "selected_fact_type": "conversation_starter",
+            "selected_fact_text": "Ask which puzzle she is working on.",
+            "acceptable_fact_ids": [],
+            "top_score": 0.88264
+          },
+          {
+            "kind": "wrong_fact",
+            "query_id": "Q-person-015-05",
+            "person_id": "person-015",
+            "question": "What memory do I share with Fadi Younes?",
+            "selected_fact_id": "person-015-F01",
+            "selected_fact_type": "identity_relationship",
+            "selected_fact_text": "Fadi Younes is your family friend.",
+            "acceptable_fact_ids": [
+              "person-015-F04"
+            ],
+            "top_score": 0.893402
+          }
+        ]
+      },
+      "test": {
+        "n": 36,
+        "issues": [
+          {
+            "kind": "unsupported_answer",
+            "query_id": "Q-person-017-03",
+            "person_id": "person-017",
+            "question": "What is Ali Hamdy’s phone number?",
+            "selected_fact_id": "person-017-F01",
+            "selected_fact_type": "identity_relationship",
+            "selected_fact_text": "Ali Hamdy is your son-in-law.",
+            "acceptable_fact_ids": [],
+            "top_score": 0.883238
+          },
+          {
+            "kind": "wrong_fact",
+            "query_id": "Q-person-017-05",
+            "person_id": "person-017",
+            "question": "What meal did Ali and I cook together?",
+            "selected_fact_id": "person-017-F06",
+            "selected_fact_type": "conversation_starter",
+            "selected_fact_text": "Ask what dish he plans to cook next.",
+            "acceptable_fact_ids": [
+              "person-017-F04"
+            ],
+            "top_score": 0.901675
+          }
+        ]
+      }
+    },
+    "question_only": {
+      "validation": {
+        "n": 26,
+        "issues": []
+      },
+      "test": {
+        "n": 36,
+        "issues": []
+      }
+    },
+    "question_plus_identity": {
+      "validation": {
+        "n": 26,
+        "issues": [
+          {
+            "kind": "wrong_fact",
+            "query_id": "Q-person-015-02",
+            "person_id": "person-015",
+            "question": "What can I talk to Fadi Younes about?",
+            "selected_fact_id": "person-015-F01",
+            "selected_fact_type": "identity_relationship",
+            "selected_fact_text": "Fadi Younes is your family friend.",
+            "acceptable_fact_ids": [
+              "person-015-F06"
+            ],
+            "top_score": 0.888986
+          },
+          {
+            "kind": "wrong_fact",
+            "query_id": "Q-person-015-05",
+            "person_id": "person-015",
+            "question": "What memory do I share with Fadi Younes?",
+            "selected_fact_id": "person-015-F01",
+            "selected_fact_type": "identity_relationship",
+            "selected_fact_text": "Fadi Younes is your family friend.",
+            "acceptable_fact_ids": [
+              "person-015-F04"
+            ],
+            "top_score": 0.890037
+          }
+        ]
+      },
+      "test": {
+        "n": 36,
+        "issues": []
+      }
+    },
+    "stale_last_request_guarded": {
+      "validation": {
+        "n": 26,
+        "issues": [
+          {
+            "kind": "wrong_fact",
+            "query_id": "Q-person-015-02",
+            "person_id": "person-015",
+            "question": "What can I talk to Fadi Younes about?",
+            "selected_fact_id": "person-015-F01",
+            "selected_fact_type": "identity_relationship",
+            "selected_fact_text": "Fadi Younes is your family friend.",
+            "acceptable_fact_ids": [
+              "person-015-F06"
+            ],
+            "top_score": 0.888986
+          },
+          {
+            "kind": "wrong_fact",
+            "query_id": "Q-person-015-05",
+            "person_id": "person-015",
+            "question": "What memory do I share with Fadi Younes?",
+            "selected_fact_id": "person-015-F01",
+            "selected_fact_type": "identity_relationship",
+            "selected_fact_text": "Fadi Younes is your family friend.",
+            "acceptable_fact_ids": [
+              "person-015-F04"
+            ],
+            "top_score": 0.890037
+          }
+        ]
+      },
+      "test": {
+        "n": 36,
+        "issues": []
+      }
+    },
+    "unknown_face_guarded": {
+      "validation": {
+        "n": 26,
+        "issues": []
+      },
+      "test": {
+        "n": 36,
+        "issues": []
+      }
+    }
+  }
+}

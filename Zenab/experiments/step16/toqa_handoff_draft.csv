@@ -1,0 +1,4 @@
+﻿example_type,query_id,recognized_person_id,question,expected_fact_id,expected_spoken_text,abstention_reason,source_origin,verification_status,upstream_origin,reference_transcript,actual_stt_transcript,handoff_status
+answerable_synthetic_demo,Q-person-001-01,person-001,Who is Omar Hassan?,person-001-F01,Omar Hassan is your son.,,source_xlsx:Fictional Memory Facts:person-001-F01,verified_in_fictional_scenario,oracle_synthetic,,,DRAFT_NOT_SENT
+missing_fact,Q-person-001-03,person-001,What is Omar Hassan’s phone number?,,No verified information available for this request.,unanswerable,source_xlsx:Retrieval Test Queries:Q-person-001-03,not_applicable,oracle_synthetic,,,DRAFT_NOT_SENT
+unknown_person,STEP16-UNKNOWN-FACE,unknown,Who is this person?,,I cannot identify this person reliably.,unknown_face,step16_synthetic_safety_example,not_applicable,simulated_unknown_face,,,DRAFT_NOT_SENT

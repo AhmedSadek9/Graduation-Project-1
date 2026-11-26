@@ -1,0 +1,30 @@
+{
+  "step": 31,
+  "assessment": "PREFLIGHT_ONLY_NO_RETRIEVAL_OR_MODEL_EXECUTION",
+  "source": "existing previously inspected synthetic benchmark",
+  "case_rows": 0,
+  "ready_by_run": {
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 0
+  },
+  "paired_A_D_count": 0,
+  "ready_case_ids_by_run": {
+    "A": [],
+    "B": [],
+    "C": [],
+    "D": []
+  },
+  "details": [],
+  "requirements": [
+    "real image/question pairing reviewed",
+    "Hanaa/Ahmed identity mapping",
+    "face decision from Ahmed actual pipeline",
+    "paired Toqa actual STT output",
+    "frozen retrieval configuration",
+    "same cases and context across A/B/C/D"
+  ],
+  "heldout_status": "NOT_EVALUATED",
+  "note": "A/B/C/D are NOT executed by this script. Do not claim reliability results from this file."
+}

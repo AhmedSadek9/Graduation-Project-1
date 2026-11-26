@@ -1,0 +1,3 @@
+# Part 3: Spoken Memory Cues & Assistant Context Formatter (spoken_memory_cues.py)
+# Uses ONLY Python 3.8+ standard library (json, typing) + Part 2 (`memory_retrieval.py`).
+# Zero external pip packages required so Toqa can run it offline with local TTS/STT.

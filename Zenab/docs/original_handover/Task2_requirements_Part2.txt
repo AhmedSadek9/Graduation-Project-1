@@ -1,0 +1,3 @@
+# Part 2: Personal Memory Retrieval Engine (memory_retrieval.py)
+# Uses ONLY Python 3.8+ standard library (json, re, pathlib, typing).
+# Zero external pip packages required so it runs offline on any laptop/edge setup.

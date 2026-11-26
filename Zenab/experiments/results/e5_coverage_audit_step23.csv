@@ -1,0 +1,63 @@
+﻿split,query_id,person_id,question,expected_outcome,acceptable_fact_ids,top_ranked_fact_id,top_allowed_fact_id,top_allowed_score,selected_fact_id,abstention_reason,audit_category,oracle_candidate_matches,upstream_origin
+validation,Q-person-013-01,person-013,Who is Adam Nasser?,answerable,"[""person-013-F01""]",person-013-F03,person-013-F01,0.843183,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+validation,Q-person-013-02,person-013,What can I talk to Adam Nasser about?,answerable,"[""person-013-F06""]",person-013-F06,person-013-F06,0.868992,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+validation,Q-person-013-03,person-013,What is Adam Nasser’s phone number?,unanswerable,[],person-013-F03,,,,unsupported_contact_information,correct_abstention,False,oracle_synthetic
+validation,Q-person-014-01,person-014,Who is Rania Mostafa?,answerable,"[""person-014-F01""]",person-014-F01,person-014-F01,0.883201,person-014-F01,,correct_answer,True,oracle_synthetic
+validation,Q-person-014-02,person-014,What can I talk to Rania Mostafa about?,answerable,"[""person-014-F06""]",person-014-F06,person-014-F06,0.898862,person-014-F06,,correct_answer,True,oracle_synthetic
+validation,Q-person-014-03,person-014,What is Rania Mostafa’s phone number?,unanswerable,[],person-014-F01,,,,unsupported_contact_information,correct_abstention,False,oracle_synthetic
+validation,Q-person-015-01,person-015,Who is Fadi Younes?,answerable,"[""person-015-F01""]",person-015-F01,person-015-F01,0.876613,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+validation,Q-person-015-02,person-015,What can I talk to Fadi Younes about?,answerable,"[""person-015-F06""]",person-015-F01,person-015-F06,0.87779,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+validation,Q-person-015-03,person-015,What is Fadi Younes’s phone number?,unanswerable,[],person-015-F01,,,,unsupported_contact_information,correct_abstention,False,oracle_synthetic
+validation,Q-person-016-01,person-016,Who is Mariam Adel?,answerable,"[""person-016-F01""]",person-016-F01,person-016-F01,0.866403,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+validation,Q-person-016-02,person-016,What can I talk to Mariam Adel about?,answerable,"[""person-016-F06""]",person-016-F06,person-016-F06,0.88826,person-016-F06,,correct_answer,True,oracle_synthetic
+validation,Q-person-016-03,person-016,What is Mariam Adel’s phone number?,unanswerable,[],person-016-F03,,,,unsupported_contact_information,correct_abstention,False,oracle_synthetic
+test,Q-person-017-01,person-017,Who is Ali Hamdy?,answerable,"[""person-017-F01""]",person-017-F03,person-017-F01,0.87604,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-017-02,person-017,What can I talk to Ali Hamdy about?,answerable,"[""person-017-F06""]",person-017-F06,person-017-F06,0.872612,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-017-03,person-017,What is Ali Hamdy’s phone number?,unanswerable,[],person-017-F03,,,,unsupported_contact_information,correct_abstention,False,oracle_synthetic
+test,Q-person-018-01,person-018,Who is Sara Ibrahim?,answerable,"[""person-018-F01""]",person-018-F01,person-018-F01,0.855461,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-018-02,person-018,What can I talk to Sara Ibrahim about?,answerable,"[""person-018-F06""]",person-018-F06,person-018-F06,0.871443,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-018-03,person-018,What is Sara Ibrahim’s phone number?,unanswerable,[],person-018-F01,,,,unsupported_contact_information,correct_abstention,False,oracle_synthetic
+test,Q-person-019-01,person-019,Who is Mostafa Kamal?,answerable,"[""person-019-F01""]",person-019-F01,person-019-F01,0.86685,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-019-02,person-019,What can I talk to Mostafa Kamal about?,answerable,"[""person-019-F06""]",person-019-F01,person-019-F06,0.857807,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-019-03,person-019,What is Mostafa Kamal’s phone number?,unanswerable,[],person-019-F01,,,,unsupported_contact_information,correct_abstention,False,oracle_synthetic
+test,Q-person-020-01,person-020,Who is Nada Sherif?,answerable,"[""person-020-F01""]",person-020-F01,person-020-F01,0.867015,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-020-02,person-020,What can I talk to Nada Sherif about?,answerable,"[""person-020-F06""]",person-020-F06,person-020-F06,0.883909,person-020-F06,,correct_answer,True,oracle_synthetic
+test,Q-person-020-03,person-020,What is Nada Sherif’s phone number?,unanswerable,[],person-020-F01,,,,unsupported_contact_information,correct_abstention,False,oracle_synthetic
+validation,Q-U007,unknown-007,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+validation,Q-U008,unknown-008,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+test,Q-U009,unknown-009,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+test,Q-U010,unknown-010,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+test,Q-U011,unknown-011,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+test,Q-U012,unknown-012,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+test,Q-U013,unknown-013,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+test,Q-U014,unknown-014,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+test,Q-U015,unknown-015,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+test,Q-U016,unknown-016,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+test,Q-U017,unknown-017,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+test,Q-U018,unknown-018,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+test,Q-U019,unknown-019,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+test,Q-U020,unknown-020,Who is this person?,unknown_identity_abstain,[],,,,,no_matching_verified_fact_type,correct_abstention,False,oracle_synthetic
+validation,Q-person-013-04,person-013,Where does Adam Nasser live?,answerable,"[""person-013-F03""]",person-013-F03,person-013-F03,0.890031,person-013-F03,,correct_answer,True,oracle_synthetic
+validation,Q-person-013-05,person-013,What did Adam and I make at the picnic?,answerable,"[""person-013-F04""]",person-013-F04,,,,unrecognized_question_intent,intent_unrecognized,False,oracle_synthetic
+validation,Q-person-013-06,person-013,What does Adam bring when he comes over?,answerable,"[""person-013-F05""]",person-013-F05,person-013-F05,0.814277,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+validation,Q-person-014-04,person-014,Which city does Rania live in?,answerable,"[""person-014-F03""]",person-014-F03,person-014-F03,0.868718,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+validation,Q-person-014-05,person-014,What did Rania and I exchange at a family gathering?,answerable,"[""person-014-F04""]",person-014-F04,,,,unrecognized_question_intent,intent_unrecognized,False,oracle_synthetic
+validation,Q-person-014-06,person-014,How does Rania help with our family memories?,answerable,"[""person-014-F05""]",person-014-F05,person-014-F05,0.859874,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+validation,Q-person-015-04,person-015,Where does Fadi live?,answerable,"[""person-015-F03""]",person-015-F03,person-015-F03,0.857432,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+validation,Q-person-015-05,person-015,What memory do I share with Fadi Younes?,answerable,"[""person-015-F04""]",person-015-F01,person-015-F04,0.85044,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+validation,Q-person-015-06,person-015,What does Fadi sometimes organize for us?,answerable,"[""person-015-F05""]",person-015-F05,person-015-F05,0.870657,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+validation,Q-person-016-04,person-016,Where does Mariam Adel live?,answerable,"[""person-016-F03""]",person-016-F03,person-016-F03,0.881346,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+validation,Q-person-016-05,person-016,What did Mariam and I finish together?,answerable,"[""person-016-F04""]",person-016-F04,person-016-F04,0.834715,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+validation,Q-person-016-06,person-016,What does Mariam bring on family visits?,answerable,"[""person-016-F05""]",person-016-F05,person-016-F05,0.866762,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-017-04,person-017,Where does Ali Hamdy live?,answerable,"[""person-017-F03""]",person-017-F03,person-017-F03,0.893316,person-017-F03,,correct_answer,True,oracle_synthetic
+test,Q-person-017-05,person-017,What meal did Ali and I cook together?,answerable,"[""person-017-F04""]",person-017-F04,person-017-F04,0.851929,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-017-06,person-017,How does Ali help with family events?,answerable,"[""person-017-F05""]",person-017-F05,person-017-F05,0.881481,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-018-04,person-018,Where does Sara Ibrahim live?,answerable,"[""person-018-F03""]",person-018-F03,person-018-F03,0.866999,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-018-05,person-018,Where did Sara and I visit together?,answerable,"[""person-018-F04""]",person-018-F04,person-018-F04,0.850333,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-018-06,person-018,How does Sara help neighbors in our building?,answerable,"[""person-018-F05""]",person-018-F05,person-018-F05,0.889363,person-018-F05,,correct_answer,True,oracle_synthetic
+test,Q-person-019-04,person-019,Where does Mostafa live?,answerable,"[""person-019-F03""]",person-019-F03,person-019-F03,0.851057,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-019-05,person-019,Where did Mostafa and I go on a family trip?,answerable,"[""person-019-F04""]",person-019-F04,,,,unrecognized_question_intent,intent_unrecognized,False,oracle_synthetic
+test,Q-person-019-06,person-019,What collection does Mostafa keep?,answerable,"[""person-019-F05""]",person-019-F05,,,,unrecognized_question_intent,intent_unrecognized,False,oracle_synthetic
+test,Q-person-020-04,person-020,Where does Nada live?,answerable,"[""person-020-F03""]",person-020-F03,person-020-F03,0.857366,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic
+test,Q-person-020-05,person-020,What did Nada do at a family gathering?,answerable,"[""person-020-F04""]",person-020-F04,,,,unrecognized_question_intent,intent_unrecognized,False,oracle_synthetic
+test,Q-person-020-06,person-020,What does Nada sometimes send to the family?,answerable,"[""person-020-F05""]",person-020-F05,person-020-F05,0.850008,,below_frozen_retrieval_threshold,threshold_rejected_correct_candidate,True,oracle_synthetic

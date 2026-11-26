@@ -1,0 +1,173 @@
+Command: python run_all_tests.py
+Run against organized distribution.
+
+
+=================================================================
+RUNNING test_memory_suite.py
+=================================================================
+=================================================================
+WANAS + ARC — MEMORY RETRIEVAL & SAFETY TEST RESULTS
+=================================================================
+1. Total Evaluation Queries   : 160/160 PASSED
+   - Answerable Facts         : 100/100 PASSED
+   - Unanswerable Abstain     : 20/20 PASSED
+   - Unknown Identity Abstain : 40/40 PASSED
+2. Unknown Visitor Profiles   : 30/30 PASSED
+3. Cross-Person Isolation     : 20/20 PASSED
+4. Low-Confidence Gating      : PASSED
+=================================================================
+ALL EDGE-CASE, SAFETY, AND RETRIEVAL TESTS PASSED 100%!
+
+=================================================================
+RUNNING test_identity_mismatch_step3.py
+=================================================================
+01. PASS  [person_mismatch_abstain] Who is Salma Nabil?
+02. PASS  [person_mismatch_abstain] What can I talk to Salma Nabil about?
+03. PASS  [person_mismatch_abstain] Who is Omar Hassan?
+04. PASS  [person_mismatch_abstain] Who is person-002?
+05. PASS  [person_mismatch_abstain] Who is Omar Hassan and Salma Nabil?
+06. PASS  [answerable] Who is Omar Hassan?
+07. PASS  [answerable] Who is Salma Nabil?
+08. PASS  [unanswerable] What is Omar Hassan favorite color?
+09. PASS  [unknown_identity_abstain] Who is Salma Nabil?
+10. PASS  [low_confidence_abstain] Who is Salma Nabil?
+
+STEP 3: 10/10 PASSED
+
+=================================================================
+RUNNING test_verification_step4.py
+=================================================================
+PASS: Demo can retrieve fictional test memories
+PASS: Production rejects synthetic person
+PASS: Production does not disclose fictional identity fields
+PASS: Production returns only approved facts
+PASS: Approved fact can answer
+PASS: Unapproved interest fact cannot answer
+PASS: Pending review rejects all facts
+PASS: Invalid mode rejected
+
+STEP 4: 8/8 PASSED
+
+=================================================================
+RUNNING test_spoken_cues_step5.py
+=================================================================
+PASS: Demo greeting works with explicit confidence
+PASS: Production synthetic greeting is blocked
+PASS: Production synthetic question is blocked
+PASS: Production synthetic conversation starter is blocked
+PASS: Missing confidence cannot produce spoken memory
+PASS: Invalid confidence cannot produce spoken question
+PASS: Mismatched name cannot produce spoken fact
+PASS: Unknown person cannot produce spoken fact
+PASS: No fabricated greeting when identity fact unapproved
+PASS: Approved identity fact can be spoken
+PASS: Invalid mode is rejected
+
+STEP 5: 11/11 PASSED
+
+=================================================================
+RUNNING test_memory_safety_step6.py
+=================================================================
+01. PASS  Known profile allowed in demo
+02. PASS  Missing person safely rejected
+03. PASS  Unknown person safely rejected
+04. PASS  Unknown identifier safely rejected
+05. PASS  Missing confidence rejected
+06. PASS  NaN confidence rejected
+07. PASS  Infinite confidence rejected
+08. PASS  Boolean confidence rejected
+09. PASS  Out of range confidence rejected
+10. PASS  Low confidence rejected
+11. PASS  Empty question abstains
+12. PASS  Unsupported favorite color abstains
+13. PASS  Different known person name rejected
+14. PASS  Different explicit ID rejected
+15. PASS  Correct known person allowed
+16. PASS  Production rejects synthetic profile
+17. PASS  Production does not expose synthetic name
+18. PASS  Production never returns synthetic matched fact
+19. PASS  Demo voice cue needs confidence
+20. PASS  Demo voice cue rejects unknown identity
+21. PASS  Production voice does not speak synthetic identity
+22. PASS  Voice question refuses mismatched identity
+23. PASS  Voice conversation starter requires confidence
+24. PASS  Production conversation starter blocks synthetic data
+
+STEP 6: 24/24 PASSED
+
+=================================================================
+RUNNING test_database_integrity_step7.py
+=================================================================
+===================================================================
+WANAS + ARC — STEP 7 DATA INTEGRITY TEST
+===================================================================
+01. PASS  Database has required top-level fields
+02. PASS  20 unique known person IDs
+03. PASS  Every profile has six facts
+04. PASS  120 unique fact IDs
+05. PASS  Every fact ID belongs to its person
+06. PASS  Person identity fields are nonempty
+07. PASS  Each fact has required provenance and review metadata
+08. PASS  Last-updated dates are valid ISO dates
+09. PASS  Demo records marked as synthetic, not real patient data
+10. PASS  Schema defines mandatory person and fact fields
+11. PASS  Schema restricts fact types and display tiers
+12. PASS  160 queries with unique query IDs
+13. PASS  Every evaluation query has a valid expected outcome
+14. PASS  Answerable queries reference facts owned by queried person
+15. PASS  Unanswerable/unknown queries do not require any fact
+16. PASS  30 unknown cases have distinct IDs outside known profiles
+17. PASS  Evaluation labels match published 100/20/40 split
+
+STEP 7: 17/17 PASSED
+
+=================================================================
+RUNNING test_schema_validation_step8.py
+=================================================================
+===================================================================
+WANAS + ARC — STEP 8 JSON SCHEMA VALIDATION
+===================================================================
+01. PASS  Original synthetic dataset conforms to schema
+02. PASS  Missing person source rejected
+03. PASS  Missing person status rejected
+04. PASS  Blank person name rejected
+05. PASS  Missing fact verification rejected
+06. PASS  Missing fact review rejected
+07. PASS  Missing fact source rejected
+08. PASS  Blank memory fact rejected
+09. PASS  Invalid fact ID rejected
+10. PASS  Invalid date rejected
+11. PASS  Invalid tier rejected
+12. PASS  Missing fact date rejected
+
+STEP 8: 12/12 PASSED
+
+=================================================================
+RUNNING test_face_memory_integration_step9.py
+=================================================================
+01. PASS  Demo recognition greeting
+02. PASS  Demo matching question
+03. PASS  Demo conversation starter
+04. PASS  Production refuses synthetic facts
+05. PASS  Production cannot speak synthetic facts
+06. PASS  Face unknown status rejected
+07. PASS  Face low-confidence status rejected
+08. PASS  Missing status rejected
+09. PASS  Missing score rejected
+10. PASS  NaN score rejected
+11. PASS  Boolean score rejected
+12. PASS  Below threshold cannot speak
+13. PASS  Unknown person ID rejected
+14. PASS  Unlisted person cannot speak
+15. PASS  Mismatched name cannot speak
+16. PASS  Unanswerable question cannot speak facts
+17. PASS  Blank question rejected
+18. PASS  Invalid intent rejected
+19. PASS  Malformed face payload rejected
+20. PASS  Default is production
+
+STEP 9: 20/20 PASSED
+
+=================================================================
+SUITES PASSED: 8/8
+ALL SUITES PASSED — synthetic fixture tests only
